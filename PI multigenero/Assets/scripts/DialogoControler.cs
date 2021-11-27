@@ -1,18 +1,22 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class DialogoControler : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public GameObject dialogoobj;
+    public Image imjperfil;
+    public Text txtfala;
+    public Text txtnome;
 
-    // Update is called once per frame
-    void Update()
+    public float txtspeed;
+
+    public void fala(Sprite p, string fal, string nom)
     {
-        
+        dialogoobj.SetActive(true);
+        imjperfil.sprite = p;
+        txtfala.text = fal;
+        txtnome.text = nom;
     }
 }
