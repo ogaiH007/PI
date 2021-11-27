@@ -4,14 +4,18 @@ using UnityEngine;
 
 public class DialogoTutorial : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public Sprite perfil;
+    public string falas;
+    public string nome;
+
+    private DialogoControler DC;
+
+    void void Start() 
     {
-        
+        DC = FindObjectOfType<DialogoControler>();
     }
 
-    // Update is called once per frame
-    void Update()
+    public void mostrartut()
     {
         
     }
