@@ -10,13 +10,13 @@ public class DialogoTutorial : MonoBehaviour
 
     private DialogoControler DC;
 
-    void void Start() 
+    void Start() 
     {
         DC = FindObjectOfType<DialogoControler>();
     }
 
     public void mostrartut()
     {
-        
+
     }
 }
