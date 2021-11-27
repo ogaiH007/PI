@@ -17,18 +17,18 @@ public class playert1 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        movelr();
     }
 
     void movelr()
     {
-        if(Input.GetKey("D"))
+        if(Input.GetKey(KeyCode.D))
         {
-            
+            transform.Translate(1*Speed*Time.deltaTime,0,0);
         }
         if(Input.GetKey(KeyCode.A))
         {
-            
+            transform.Translate(-1*Speed*Time.deltaTime,0,0);
         }
     }
 }
