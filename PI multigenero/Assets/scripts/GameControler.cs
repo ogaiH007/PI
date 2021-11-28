@@ -6,6 +6,8 @@ using UnityEngine.SceneManagement;
 public class GameControler : MonoBehaviour
 {
     public static GameControler instancia;
+    public GameObject menu;
+    public GameObject pauseb;
     
     // Start is called before the first frame update
     void Start()
@@ -27,5 +29,16 @@ public class GameControler : MonoBehaviour
     public void fechar()
     {
         Application.Quit();
+    }
+
+    public void abrirmenu()
+    {
+        menu.SetActive(true);
+        pauseb.SetActive(false);
+    }
+    public void fecharmenu()
+    {
+        menu.SetActive(false);
+        pauseb.SetActive(true);
     }
 }

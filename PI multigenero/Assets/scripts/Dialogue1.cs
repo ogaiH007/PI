@@ -14,6 +14,7 @@ public class Dialogue1 : MonoBehaviour
     private DialogControl dc;
     bool onRadious;
     bool dialogochamado;
+    public GameObject aperteenter;
 
     private void Start() 
     {
@@ -31,11 +32,19 @@ public class Dialogue1 : MonoBehaviour
         {
             if(Input.GetKeyDown(KeyCode.Return) && onRadious)
                 {
+                    aperteenter.SetActive(false);
                     dc.Speech(profile, speechTxt, actorName);
                     dialogochamado = true;
                 }
         }
-        
+        if(dialogochamado)
+        {
+            if(Input.GetKeyDown(KeyCode.Return))
+            {
+                aperteenter.SetActive(false);
+                dc.NextSentence();
+            }
+        }
     }
 
     public void Interact()
@@ -44,10 +53,19 @@ public class Dialogue1 : MonoBehaviour
 
         if(hit != null)
         {
+            if(!dialogochamado)
+            {
+                aperteenter.SetActive(true);
+            }
+            else
+            {
+                aperteenter.SetActive(false);
+            }
             onRadious = true;
         }
         else
         {
+            aperteenter.SetActive(false);
             onRadious = false;
         }
     }
