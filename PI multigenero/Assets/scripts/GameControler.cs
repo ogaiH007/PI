@@ -8,6 +8,7 @@ public class GameControler : MonoBehaviour
     public static GameControler instancia;
     public GameObject menu;
     public GameObject pauseb;
+    bool menuaberto;
     
     // Start is called before the first frame update
     void Start()
@@ -18,7 +19,17 @@ public class GameControler : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if(Input.GetKeyDown(KeyCode.Escape))
+        {
+            if(!menuaberto)
+            {
+                abrirmenu();
+            }
+            else
+            {
+                fecharmenu();
+            }
+        }
     }
 
     public void restart(string levelname)
@@ -35,10 +46,12 @@ public class GameControler : MonoBehaviour
     {
         menu.SetActive(true);
         pauseb.SetActive(false);
+        menuaberto = true;
     }
     public void fecharmenu()
     {
         menu.SetActive(false);
         pauseb.SetActive(true);
+        menuaberto = false;
     }
 }

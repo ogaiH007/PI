@@ -78,5 +78,6 @@ public class Dialogue1 : MonoBehaviour
     public void ativatebuton()
     {
         dialogochamado = false;
+        aperteenter.SetActive(true);
     }
 }
