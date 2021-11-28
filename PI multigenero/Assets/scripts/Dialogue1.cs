@@ -29,7 +29,7 @@ public class Dialogue1 : MonoBehaviour
     {
         if(!dialogochamado)
         {
-            if(Input.GetKeyDown(KeyCode.Space) && onRadious)
+            if(Input.GetKeyDown(KeyCode.Return) && onRadious)
                 {
                     dc.Speech(profile, speechTxt, actorName);
                     dialogochamado = true;
