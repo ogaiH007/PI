@@ -1,18 +1,24 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class DialogControl : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    [Header("Components")]
+    public GameObject dialogueObj;
+    public Image profile;
+    public Text speechText;
+    public Text actorNameText;
 
-    // Update is called once per frame
-    void Update()
+    [Header("Settings")]
+    public float typingSpeed;
+
+    public void Speech(Sprite p, string txt, string actorName)
     {
-        
+        dialogueObj.SetActive(true);
+        profile.sprite = p;
+        speechText.text = txt;
+        actorNameText.text = actorName;
     }
 }
