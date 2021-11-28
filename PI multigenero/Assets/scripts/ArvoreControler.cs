@@ -1,10 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class ArvoreControler : MonoBehaviour
 {
-    private int SkilsPoints;
+    private int SkilsPoints = 1;
     
     public GameObject AbrirArvB;
     public GameObject ArvoreJan;
@@ -24,19 +25,28 @@ public class ArvoreControler : MonoBehaviour
     bool skilgraficos01;
     bool skilcontroles01;
     bool skilmain01;
+
+    public Text skilpointtxt;
     
+    private playert1 player;
+
     // Start is called before the first frame update
     private void Start()
     {
-        
+        player = FindObjectOfType<playert1>();
     }
 
     // Update is called once per frame
     private void Update()
     {
-        
+        skilpointtxt.text = SkilsPoints.ToString();
     }
 
+    void updatesp()
+    {
+
+    }
+    
     public void abrirArvore()
     {
         ArvoreJan.SetActive(true);
@@ -57,6 +67,7 @@ public class ArvoreControler : MonoBehaviour
             ControleSkilfalse.SetActive(false);
             ControleSkiltrue.SetActive(true);
             skilcontroles01 = true;
+            player.skiljump();
         }
     }
 
