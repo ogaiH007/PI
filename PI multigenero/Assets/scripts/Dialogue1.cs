@@ -13,6 +13,7 @@ public class Dialogue1 : MonoBehaviour
 
     private DialogControl dc;
     bool onRadious;
+    bool dialogochamado;
 
     private void Start() 
     {
@@ -26,10 +27,15 @@ public class Dialogue1 : MonoBehaviour
 
     private void Update() 
     {
-        if(Input.GetKeyDown(KeyCode.Space) && onRadious)
+        if(!dialogochamado)
         {
-            dc.Speech(profile, speechTxt, actorName);
+            if(Input.GetKeyDown(KeyCode.Space) && onRadious)
+                {
+                    dc.Speech(profile, speechTxt, actorName);
+                    dialogochamado = true;
+                }
         }
+        
     }
 
     public void Interact()
@@ -49,5 +55,10 @@ public class Dialogue1 : MonoBehaviour
     private void OnDrawGizmosSelected() 
     {
         Gizmos.DrawWireSphere(transform.position, radious);
+    }
+
+    public void ativatebuton()
+    {
+        dialogochamado = false;
     }
 }

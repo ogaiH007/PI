@@ -16,6 +16,13 @@ public class DialogControl : MonoBehaviour
     private string[] sentences;
     private int index;
 
+    private Dialogue1 Dia1;
+
+    private void Start() 
+    {
+        Dia1 = FindObjectOfType<Dialogue1>();
+    }
+    
     public void Speech(Sprite p, string[] txt, string actorName)
     {
         dialogueObj.SetActive(true);
@@ -50,6 +57,7 @@ public class DialogControl : MonoBehaviour
                 speechText.text = "";
                 index = 0;
                 dialogueObj.SetActive(false);
+                Dia1.ativatebuton();
             }
         }
     }
