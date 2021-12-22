@@ -32,7 +32,6 @@ public class Dialogue1 : MonoBehaviour
         {
             if(Input.GetKeyDown(KeyCode.Return) && onRadious)
                 {
-                    aperteenter.SetActive(false);
                     dc.Speech(profile, speechTxt, actorName);
                     dialogochamado = true;
                 }
@@ -41,7 +40,6 @@ public class Dialogue1 : MonoBehaviour
         {
             if(Input.GetKeyDown(KeyCode.Return))
             {
-                aperteenter.SetActive(false);
                 dc.NextSentence();
             }
         }
