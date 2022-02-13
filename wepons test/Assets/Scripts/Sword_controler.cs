@@ -10,7 +10,9 @@ public class Sword_controler : MonoBehaviour
     {
         if(collider.gameObject.tag == "Enimy")
         {
-
+            Dummy_controler.DumCon.totalDam = dano_causado;
+            Dummy_controler.DumCon.DamTXT.SetActive(true);
+            Dummy_controler.DumCon.activetimer = true;
         }
     }
 }
