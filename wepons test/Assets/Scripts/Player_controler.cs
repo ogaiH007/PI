@@ -26,7 +26,7 @@ public class Player_controler : MonoBehaviour
     }
    void Wepon()
     {
-        if(Input.GetButtonDown("Fire1"))
+        if(Input.GetButtonDown("Fire3"))
         {
             Sword.SetActive(true);
             activetimer = true;
