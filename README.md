@@ -1,9 +1,6 @@
-# PI
-repositorio do meu PI
+# PIROCA
+Meu repositorio de PIROCA
 
-Repositorio com os arquivos do Projeto Integrador de conclusão de curso 
-do meu 3º ano do ensino medio integrado a Desenvolvimento de sistemas
+ROLON
 
-Este é um projeto de um jogo do tipo RPG de Ação baseados nos jogos da 
-franquia The Legend of Zelda apenas para praticaras habilidades do nosso 
-grupo.
+Joao é gay
