@@ -146,3 +146,35 @@ Received Import Request.
 Start importing Assets/Scenes/Testes_sprites.unity using Guid(973b21528a976ca48aa5430938dfb4cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ef67a7f3d7b2b5f4b3f45ff481a9775') in 0.020150 seconds 
   Import took 0.034555 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 91.458660 seconds.
+  path: Assets/Sprites/7d595a64c99a634d94759de8096cca14.jpg
+  artifactKey: Guid(a60b004d7828acd43a49f9716224978e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/7d595a64c99a634d94759de8096cca14.jpg using Guid(a60b004d7828acd43a49f9716224978e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46c5129c8ddedf48beed06b6f908e529') in 1.134945 seconds 
+  Import took 1.146002 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 54.256030 seconds.
+  path: Assets/Sprites/Boneco mandado por davila sla.jpg
+  artifactKey: Guid(a60b004d7828acd43a49f9716224978e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Boneco mandado por davila sla.jpg using Guid(a60b004d7828acd43a49f9716224978e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa7df83572e8999e6a6bd5e06d6dd117') in 0.189658 seconds 
+  Import took 0.204835 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.137933 seconds.
+  path: Assets/Sprites/Boneco mandado por davila sla.jpg
+  artifactKey: Guid(a60b004d7828acd43a49f9716224978e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Boneco mandado por davila sla.jpg using Guid(a60b004d7828acd43a49f9716224978e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c01e6a808f9651355c399d023d546e48') in 0.215289 seconds 
+  Import took 0.226412 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 86.115099 seconds.
+  path: Assets/Sprites/Boneco mandado por davila sla.jpg
+  artifactKey: Guid(a60b004d7828acd43a49f9716224978e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Boneco mandado por davila sla.jpg using Guid(a60b004d7828acd43a49f9716224978e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c24f5238f5e928c2122dcce0b5ef7e9') in 0.177834 seconds 
+  Import took 0.189993 seconds .
+
