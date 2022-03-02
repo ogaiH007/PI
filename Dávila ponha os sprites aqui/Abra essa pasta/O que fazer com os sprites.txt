@@ -1,0 +1,6 @@
+com a unity aberta no projeto de Pi abra a cena Testes_sprites 
+Jogue na pasta sprites a imagem do sprite
+troque de bilenear para point(no filter)
+troque de single para multiple
+abra o sprite editor e com cuidado selecione frame a frame na ordem que vão aparecer
+jogue na cena todos selecionados e teste se a animação esta boa.
