@@ -50,6 +50,18 @@ TextureImporter:
   - first:
       213: 8723319857535910291
     second: Boneco mandado por davila sla_3
+  - first:
+      213: -6681161244472799686
+    second: Boneco mandado por davila sla_4
+  - first:
+      213: -2470237885971939017
+    second: Boneco mandado por davila sla_5
+  - first:
+      213: 9016329103442528474
+    second: Boneco mandado por davila sla_6
+  - first:
+      213: 6353876402788664099
+    second: Boneco mandado por davila sla_7
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -159,7 +171,7 @@ TextureImporter:
         width: 159
         height: 206
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -180,7 +192,7 @@ TextureImporter:
         width: 151
         height: 196
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -201,7 +213,7 @@ TextureImporter:
         width: 162
         height: 206
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -222,7 +234,7 @@ TextureImporter:
         width: 150
         height: 197
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -230,6 +242,90 @@ TextureImporter:
       bones: []
       spriteID: 3910a8a31357f0970800000000000000
       internalID: 8723319857535910291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boneco mandado por davila sla_4
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 571
+        width: 167
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3e87181f3fb743a0800000000000000
+      internalID: -6681161244472799686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boneco mandado por davila sla_5
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 571
+        width: 151
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7314ee70bb3f7bdd0800000000000000
+      internalID: -2470237885971939017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boneco mandado por davila sla_6
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 572
+        width: 161
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad845bc8c8f602d70800000000000000
+      internalID: 9016329103442528474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boneco mandado por davila sla_7
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 571
+        width: 151
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32384fe8ce08d2850800000000000000
+      internalID: 6353876402788664099
       vertices: []
       indices: 
       edges: []
