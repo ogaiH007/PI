@@ -2,18 +2,23 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class GameControler : MonoBehaviour
 {
     public static GameControler instancia;
-    public GameObject menu;
-    public GameObject pauseb;
-    bool menuaberto;
+    public GameObject Menu;
+    bool MenuAberto;
+
+    public int Score;
+
+    public Text ScoreText;
     
     // Start is called before the first frame update
     void Start()
     {
         instancia = this;
+        Score = PlayerPrefs.GetInt("Score");
     }
 
     // Update is called once per frame
@@ -21,15 +26,23 @@ public class GameControler : MonoBehaviour
     {
         if(Input.GetKeyDown(KeyCode.Escape))
         {
-            if(!menuaberto)
+            PlayerPrefs.SetInt("Score", Score);
+            if(!MenuAberto)
             {
-                abrirmenu();
+                AbrirMenu();
             }
             else
             {
-                fecharmenu();
+                FecharMenu();
             }
         }
+
+        UpdateScore();
+    }
+
+    public void UpdateScore()
+    {
+        ScoreText.text = Score.ToString();
     }
 
     public void restart(string levelname)
@@ -37,21 +50,20 @@ public class GameControler : MonoBehaviour
         SceneManager.LoadScene(levelname);
     }
 
-    public void fechar()
+    public void FecharJogo()
     {
         Application.Quit();
     }
 
-    public void abrirmenu()
+    public void AbrirMenu()
     {
-        menu.SetActive(true);
-        pauseb.SetActive(false);
-        menuaberto = true;
+        Menu.SetActive(true);
+        MenuAberto = true;
     }
-    public void fecharmenu()
+
+    public void FecharMenu()
     {
-        menu.SetActive(false);
-        pauseb.SetActive(true);
-        menuaberto = false;
+        Menu.SetActive(false);
+        MenuAberto = false;
     }
 }
