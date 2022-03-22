@@ -66,4 +66,10 @@ public class GameControler : MonoBehaviour
         Menu.SetActive(false);
         MenuAberto = false;
     }
+
+    public void LevelSelect(string LvlName)
+    {
+        PlayerPrefs.SetInt("Score", Score);
+        SceneManager.LoadScene(LvlName);
+    }
 }
