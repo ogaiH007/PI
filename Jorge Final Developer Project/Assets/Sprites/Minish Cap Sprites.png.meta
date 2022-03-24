@@ -14,6 +14,36 @@ TextureImporter:
   - first:
       213: -4521215294498081788
     second: Minish Cap Sprites_3
+  - first:
+      213: 8721583132488847254
+    second: Minish Cap Sprites_4
+  - first:
+      213: -3630050389462987785
+    second: Minish Cap Sprites_5
+  - first:
+      213: 7608119849881728982
+    second: Minish Cap Sprites_6
+  - first:
+      213: 1577421024204822278
+    second: Minish Cap Sprites_7
+  - first:
+      213: -3166441503867950311
+    second: Minish Cap Sprites_8
+  - first:
+      213: -3622977563416529120
+    second: Minish Cap Sprites_9
+  - first:
+      213: 2340859594350485306
+    second: Minish Cap Sprites_10
+  - first:
+      213: -1432666305243880445
+    second: Minish Cap Sprites_11
+  - first:
+      213: 5872283418859269936
+    second: Minish Cap Sprites_12
+  - first:
+      213: -5713392434211897714
+    second: Minish Cap Sprites_13
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -186,7 +216,7 @@ TextureImporter:
         width: 13
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -194,6 +224,216 @@ TextureImporter:
       bones: []
       spriteID: 404f062e4aa6141c0800000000000000
       internalID: -4521215294498081788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minish Cap Sprites_4
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1076
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69f490b66a9490970800000000000000
+      internalID: 8721583132488847254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minish Cap Sprites_5
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 1078
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fb4a4357687f9dc0800000000000000
+      internalID: -3630050389462987785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minish Cap Sprites_6
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 1076
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d77cc4a1b8759960800000000000000
+      internalID: 7608119849881728982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minish Cap Sprites_7
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 1076
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60716f0601024e510800000000000000
+      internalID: 1577421024204822278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minish Cap Sprites_8
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 1076
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91ba5ef8a3a8e04d0800000000000000
+      internalID: -3166441503867950311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minish Cap Sprites_9
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 1076
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 027f857f91998bdc0800000000000000
+      internalID: -3622977563416529120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minish Cap Sprites_10
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 1078
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3f535e06676c7020800000000000000
+      internalID: 2340859594350485306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minish Cap Sprites_11
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 1076
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 304644206952e1ce0800000000000000
+      internalID: -1432666305243880445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minish Cap Sprites_12
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 1076
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03fe58128aa8e7150800000000000000
+      internalID: 5872283418859269936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minish Cap Sprites_13
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 1076
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8e35681ad3f5b0b0800000000000000
+      internalID: -5713392434211897714
       vertices: []
       indices: 
       edges: []
