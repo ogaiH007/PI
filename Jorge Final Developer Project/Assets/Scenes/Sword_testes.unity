@@ -270,8 +270,13 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1738945959 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2621129583084220516, guid: deb8e440ad3f9844daf0eb211c03cb85, type: 3}
+  m_PrefabInstance: {fileID: 2621129582365500997}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1914081346
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -281,7 +286,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4903615348992004993, guid: 35bc972e8152c5f4e87d2dfa66d461eb, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4903615348992004993, guid: 35bc972e8152c5f4e87d2dfa66d461eb, type: 3}
       propertyPath: m_LocalPosition.x
@@ -441,9 +446,13 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2621129581598022621, guid: deb8e440ad3f9844daf0eb211c03cb85, type: 3}
+      propertyPath: Sword
+      value: 
+      objectReference: {fileID: 1738945959}
     - target: {fileID: 2621129583084220516, guid: deb8e440ad3f9844daf0eb211c03cb85, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: deb8e440ad3f9844daf0eb211c03cb85, type: 3}
