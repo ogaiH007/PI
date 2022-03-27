@@ -1,0 +1,332 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.23f1 (c5d91304a876) revision 12966163'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 7  (6.1.0) 64bit' Language: 'pt' Physical Memory: 2815 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity 2020.3.23f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+C:/Users/ogaiH/Documents/Repositorios/PI/Jorge Final Developer Project
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+52051
+Successfully changed project path to: C:/Users/ogaiH/Documents/Repositorios/PI/Jorge Final Developer Project
+C:/Users/ogaiH/Documents/Repositorios/PI/Jorge Final Developer Project
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 254.03 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.23f1 (c5d91304a876)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity 2020.3.23f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/ogaiH/Documents/Repositorios/PI/Jorge Final Developer Project/Assets
+GfxDevice: creating device client; threaded=0
+d3d11: CreateDXGIFactory2(...) not found, fallbacking to CreateDXGIFactory1(...).
+d3d11: QueryInterface(IDXGIFactory5) failed (80004002).
+Direct3D:
+    Version:  Direct3D 11.0 [level 10.0]
+    Renderer: NVIDIA GeForce 9100M G (ID=0x86e)
+    Vendor:   
+    VRAM:     784 MB
+    Driver:   21.21.13.4201
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity 2020.3.23f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity 2020.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity 2020.3.23f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56776
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity 2020.3.23f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.008013 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 194.96 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.564 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3565ms)
+		BeginReloadAssembly (398ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (5ms)
+		EndReloadAssembly (2800ms)
+			LoadAssemblies (389ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (875ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (166ms)
+			SetupLoadedEditorAssemblies (1195ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (23ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (195ms)
+				BeforeProcessingInitializeOnLoad (75ms)
+				ProcessInitializeOnLoadAttributes (651ms)
+				ProcessInitializeOnLoadMethodAttributes (246ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (2ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.008666 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 191.70 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  6.557 seconds
+Domain Reload Profiling:
+	ReloadAssembly (6574ms)
+		BeginReloadAssembly (693ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (25ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (123ms)
+		EndReloadAssembly (5615ms)
+			LoadAssemblies (532ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1568ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (328ms)
+			SetupLoadedEditorAssemblies (2301ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (22ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (192ms)
+				BeforeProcessingInitializeOnLoad (336ms)
+				ProcessInitializeOnLoadAttributes (1497ms)
+				ProcessInitializeOnLoadMethodAttributes (238ms)
+				AfterProcessingInitializeOnLoad (14ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (53ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.70 seconds
+Refreshing native plugins compatible for Editor in 3.83 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2175 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 95.5 MB.
+System memory in use after: 95.6 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2614.
+Total: 82.090674 ms (FindLiveObjects: 1.983786 ms CreateObjectMapping: 2.108995 ms MarkObjects: 77.314134 ms  DeleteObjects: 0.667468 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Sprites/tloz the mish cap sprites/Animações/Espada link/Link espada cima.png
+  artifactKey: Guid(0119f2bfe12c15e408c02468b590dbfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/tloz the mish cap sprites/Animações/Espada link/Link espada cima.png using Guid(0119f2bfe12c15e408c02468b590dbfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36955c0f00376fc9362326be1072fde4') in 0.684078 seconds 
+  Import took 0.735513 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000428 seconds.
+  path: Assets/Sprites/tloz the mish cap sprites/Animações/Espada link/Link espada baixo.png
+  artifactKey: Guid(dc5d452085988374abd18793f3a88a91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/tloz the mish cap sprites/Animações/Espada link/Link espada baixo.png using Guid(dc5d452085988374abd18793f3a88a91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d5d8712658d1e697adbaab3f44e38dc') in 0.024600 seconds 
+  Import took 0.038968 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000500 seconds.
+  path: Assets/Sprites/tloz the mish cap sprites/Animações/Espada link/Link espada lado.png
+  artifactKey: Guid(1002a4cfad47add40959d113485f0e83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/tloz the mish cap sprites/Animações/Espada link/Link espada lado.png using Guid(1002a4cfad47add40959d113485f0e83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22d8c3a9c5c2231059a8ab585efe5c61') in 0.072616 seconds 
+  Import took 0.085594 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 162.153020 seconds.
+  path: Assets/Sprites/tloz the mish cap sprites/Animações/Espada link/Link espada baixo.png
+  artifactKey: Guid(dc5d452085988374abd18793f3a88a91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/tloz the mish cap sprites/Animações/Espada link/Link espada baixo.png using Guid(dc5d452085988374abd18793f3a88a91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c277ffc1f26e1f1b8ac784a3923bc89') in 0.536701 seconds 
+  Import took 0.564846 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 52.268492 seconds.
+  path: Assets/Sprites/tloz the mish cap sprites/Animações/Espada link/Link espada baixo_0.controller
+  artifactKey: Guid(eafdd8c282b524f409bc09438af8bcb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/tloz the mish cap sprites/Animações/Espada link/Link espada baixo_0.controller using Guid(eafdd8c282b524f409bc09438af8bcb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70dcc111769c5ca7d23b84546889c2c0') in 0.019313 seconds 
+  Import took 0.035279 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.378651 seconds.
+  path: Assets/Sprites/tloz the mish cap sprites/Animações/Espada link/LinkSword_donw.anim
+  artifactKey: Guid(0ea32f19df9ec944199e4ca81baee0ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/tloz the mish cap sprites/Animações/Espada link/LinkSword_donw.anim using Guid(0ea32f19df9ec944199e4ca81baee0ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d0c66b95c54ebb48d96e6bf80646af5') in 0.013025 seconds 
+  Import took 0.115499 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 105.981136 seconds.
+  path: Assets/Sprites/tloz the mish cap sprites/Animações/Espada link/Link espada baixo.png
+  artifactKey: Guid(dc5d452085988374abd18793f3a88a91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/tloz the mish cap sprites/Animações/Espada link/Link espada baixo.png using Guid(dc5d452085988374abd18793f3a88a91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f27cd98318ca65f29ff43794588e0fc3') in 0.235719 seconds 
+  Import took 0.273500 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 193.815729 seconds.
+  path: Assets/Sprites/tloz the mish cap sprites/Animações/caindo precipicio.png
+  artifactKey: Guid(074215751639b3d47b1cf18507fbd045) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/tloz the mish cap sprites/Animações/caindo precipicio.png using Guid(074215751639b3d47b1cf18507fbd045) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4942ac779b8ec86ecd6bc8d6f39beef1') in 0.128453 seconds 
+  Import took 0.371734 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000713 seconds.
+  path: Assets/Sprites/tloz the mish cap sprites/Animações/mostrando iten.png
+  artifactKey: Guid(caf319f590b32d94fbceead4b81af113) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/tloz the mish cap sprites/Animações/mostrando iten.png using Guid(caf319f590b32d94fbceead4b81af113) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f9e0f94c71a762958c48aba557cdf54') in 0.122455 seconds 
+  Import took 0.133303 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000438 seconds.
+  path: Assets/Sprites/tloz the mish cap sprites/Animações/morrendo.png
+  artifactKey: Guid(9bd3a57020dbdc04f91cd5dfb8bb3090) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/tloz the mish cap sprites/Animações/morrendo.png using Guid(9bd3a57020dbdc04f91cd5dfb8bb3090) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '822305f7cc8d65a44564a4c419393bda') in 0.170260 seconds 
+  Import took 0.181797 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000442 seconds.
+  path: Assets/Sprites/tloz the mish cap sprites/Animações/parado.png
+  artifactKey: Guid(0b9cf24ed8d1b54448887119f2770b5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/tloz the mish cap sprites/Animações/parado.png using Guid(0b9cf24ed8d1b54448887119f2770b5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '450d85256586f69f9a2fe74c818069c8') in 0.157089 seconds 
+  Import took 0.170558 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.299405 seconds.
+  path: Assets/Sprites/tloz the mish cap sprites/Animações/Espada link
+  artifactKey: Guid(b331f6f9420be8e4bafe6cc312141d3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/tloz the mish cap sprites/Animações/Espada link using Guid(b331f6f9420be8e4bafe6cc312141d3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '001e27fb49ed8e920b4f3627b2aab74b') in 0.048871 seconds 
+  Import took 0.080357 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006770 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.65 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.880 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3882ms)
+		BeginReloadAssembly (358ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (32ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (104ms)
+		EndReloadAssembly (3315ms)
+			LoadAssemblies (353ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (912ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (149ms)
+			SetupLoadedEditorAssemblies (1479ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (22ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (439ms)
+				ProcessInitializeOnLoadAttributes (935ms)
+				ProcessInitializeOnLoadMethodAttributes (63ms)
+				AfterProcessingInitializeOnLoad (15ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (58ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2163 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 97.8 MB.
+System memory in use after: 97.9 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2643.
+Total: 8.745043 ms (FindLiveObjects: 0.799193 ms CreateObjectMapping: 0.272759 ms MarkObjects: 7.556261 ms  DeleteObjects: 0.105659 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 42.583151 seconds.
+  path: Assets/Sprites/tloz the mish cap sprites/Animações/Espada link/link.controller
+  artifactKey: Guid(a04bb7c351bbcda418d2d418b7fae161) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/tloz the mish cap sprites/Animações/Espada link/link.controller using Guid(a04bb7c351bbcda418d2d418b7fae161) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd955c76be2561af996676d2d5fa0a53') in 0.039386 seconds 
+  Import took 0.069949 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 53.462681 seconds.
+  path: Assets/Sprites/tloz the mish cap sprites/Animações/parado.png
+  artifactKey: Guid(0b9cf24ed8d1b54448887119f2770b5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/tloz the mish cap sprites/Animações/parado.png using Guid(0b9cf24ed8d1b54448887119f2770b5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6500e2df00ce02afa8ccc128f53825f') in 0.299623 seconds 
+  Import took 0.310400 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007598 seconds.
+  path: Assets/Sprites/tloz the mish cap sprites/Animações/mostrando iten.png
+  artifactKey: Guid(caf319f590b32d94fbceead4b81af113) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/tloz the mish cap sprites/Animações/mostrando iten.png using Guid(caf319f590b32d94fbceead4b81af113) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2f3b9a65fc84f8d5f8eb03b2b60c670') in 0.026076 seconds 
+  Import took 0.057804 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.024983 seconds.
+  path: Assets/Sprites/tloz the mish cap sprites/Animações/morrendo.png
+  artifactKey: Guid(9bd3a57020dbdc04f91cd5dfb8bb3090) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/tloz the mish cap sprites/Animações/morrendo.png using Guid(9bd3a57020dbdc04f91cd5dfb8bb3090) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfb94fb9574fa651c477be4f8e5a53f3') in 0.196399 seconds 
+  Import took 0.257525 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001368 seconds.
+  path: Assets/Sprites/tloz the mish cap sprites/Animações/caindo precipicio.png
+  artifactKey: Guid(074215751639b3d47b1cf18507fbd045) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/tloz the mish cap sprites/Animações/caindo precipicio.png using Guid(074215751639b3d47b1cf18507fbd045) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abc9f47e43efc4579ff83ea5a63faaf5') in 0.068915 seconds 
+  Import took 0.173152 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 203.461368 seconds.
+  path: Assets/Sprites/tloz the mish cap sprites/Animações/parado.png
+  artifactKey: Guid(0b9cf24ed8d1b54448887119f2770b5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/tloz the mish cap sprites/Animações/parado.png using Guid(0b9cf24ed8d1b54448887119f2770b5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93b486b7028ac5020a52af4ff250996f') in 0.275725 seconds 
+  Import took 0.326993 seconds .
+

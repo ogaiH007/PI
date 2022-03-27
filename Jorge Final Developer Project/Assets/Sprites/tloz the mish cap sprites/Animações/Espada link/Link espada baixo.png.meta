@@ -1,7 +1,25 @@
 fileFormatVersion: 2
 guid: dc5d452085988374abd18793f3a88a91
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 2463095214461538511
+    second: Link espada baixo_0
+  - first:
+      213: 589189482630869953
+    second: Link espada baixo_1
+  - first:
+      213: -2350329806660973349
+    second: Link espada baixo_2
+  - first:
+      213: 8307650127680113772
+    second: Link espada baixo_3
+  - first:
+      213: 7681440681057937355
+    second: Link espada baixo_4
+  - first:
+      213: -8385116195335372062
+    second: Link espada baixo_5
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -32,7 +50,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -41,12 +59,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -68,7 +86,31 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -77,7 +119,133 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Link espada baixo_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 15
+        width: 28
+        height: 25
+      alignment: 9
+      pivot: {x: 0.67008007, y: 0.30951035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc0d1f92c0cae2220800000000000000
+      internalID: 2463095214461538511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Link espada baixo_1
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 5
+        width: 19
+        height: 38
+      alignment: 9
+      pivot: {x: 0.5338709, y: 0.45935497}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c3fb9976b83d2800800000000000000
+      internalID: 589189482630869953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Link espada baixo_2
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 3
+        width: 19
+        height: 39
+      alignment: 9
+      pivot: {x: 0.5203227, y: 0.47689828}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdcc5f05e73f16fd0800000000000000
+      internalID: -2350329806660973349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Link espada baixo_3
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 5
+        width: 26
+        height: 36
+      alignment: 9
+      pivot: {x: 0.39109215, y: 0.4928495}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6c0a9a76c3ba4370800000000000000
+      internalID: 8307650127680113772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Link espada baixo_4
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 7
+        width: 29
+        height: 34
+      alignment: 9
+      pivot: {x: 0.3224703, y: 0.49242884}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc761b5f995f99a60800000000000000
+      internalID: 7681440681057937355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Link espada baixo_5
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 15
+        width: 32
+        height: 26
+      alignment: 9
+      pivot: {x: 0.27475882, y: 0.3019858}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e209a02f3512ab80800000000000000
+      internalID: -8385116195335372062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
