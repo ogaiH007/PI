@@ -402,6 +402,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: link
       objectReference: {fileID: 0}
+    - target: {fileID: 2621129581598022608, guid: deb8e440ad3f9844daf0eb211c03cb85, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2621129581598022610, guid: deb8e440ad3f9844daf0eb211c03cb85, type: 3}
       propertyPath: m_RootOrder
       value: 2
