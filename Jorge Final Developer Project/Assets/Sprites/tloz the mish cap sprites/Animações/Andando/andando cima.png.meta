@@ -1,7 +1,37 @@
 fileFormatVersion: 2
 guid: b215cbc620905c645a8f5593858417f2
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -2519582238240157726
+    second: andando cima_0
+  - first:
+      213: -5041674951004769394
+    second: andando cima_1
+  - first:
+      213: -1867676720247006236
+    second: andando cima_2
+  - first:
+      213: -6018958717311156341
+    second: andando cima_3
+  - first:
+      213: -552936000640296238
+    second: andando cima_4
+  - first:
+      213: 5634945251110145760
+    second: andando cima_5
+  - first:
+      213: 9088139927634021976
+    second: andando cima_6
+  - first:
+      213: -3106324606851579807
+    second: andando cima_7
+  - first:
+      213: 3089963859120186069
+    second: andando cima_8
+  - first:
+      213: -5216672053492603165
+    second: andando cima_9
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -32,7 +62,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -41,12 +71,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -68,7 +98,31 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -77,7 +131,217 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: andando cima_0
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 8
+        width: 18
+        height: 25
+      alignment: 9
+      pivot: {x: 0.53262234, y: 0.45824334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2efcf4bbd45a80dd0800000000000000
+      internalID: -2519582238240157726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: andando cima_1
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 8
+        width: 18
+        height: 24
+      alignment: 9
+      pivot: {x: 0.52899766, y: 0.4809703}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e833060185f580ab0800000000000000
+      internalID: -5041674951004769394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: andando cima_2
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 8
+        width: 18
+        height: 25
+      alignment: 9
+      pivot: {x: 0.52899766, y: 0.5339273}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4eb19661beda416e0800000000000000
+      internalID: -1867676720247006236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: andando cima_3
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 7
+        width: 18
+        height: 28
+      alignment: 9
+      pivot: {x: 0.52899766, y: 0.51398104}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8f7de8bfec587ca0800000000000000
+      internalID: -6018958717311156341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: andando cima_4
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 8
+        width: 18
+        height: 27
+      alignment: 9
+      pivot: {x: 0.53262246, y: 0.4613365}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2da5f4213a39358f0800000000000000
+      internalID: -552936000640296238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: andando cima_5
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 8
+        width: 18
+        height: 25
+      alignment: 9
+      pivot: {x: 0.52899766, y: 0.46085313}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0eec135c9d8533e40800000000000000
+      internalID: 5634945251110145760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: andando cima_6
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 8
+        width: 18
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5253728, y: 0.47825179}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85e8ba7fc1f8f1e70800000000000000
+      internalID: 9088139927634021976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: andando cima_7
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 8
+        width: 18
+        height: 25
+      alignment: 9
+      pivot: {x: 0.52899766, y: 0.5365371}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1608e836a3e14e4d0800000000000000
+      internalID: -3106324606851579807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: andando cima_8
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 6
+        width: 18
+        height: 28
+      alignment: 9
+      pivot: {x: 0.52899677, y: 0.5163112}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d267af22c1c1ea20800000000000000
+      internalID: 3089963859120186069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: andando cima_9
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 8
+        width: 18
+        height: 27
+      alignment: 9
+      pivot: {x: 0.47825113, y: 0.46375296}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e6addd0868aa97b0800000000000000
+      internalID: -5216672053492603165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
