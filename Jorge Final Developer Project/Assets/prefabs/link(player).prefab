@@ -147,10 +147,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2be55323b1f05447bd807ff7f691515, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  idlepos: 0
   speed: 5
-  SwTime: 1
+  SwTime: 0.4
   Sword: {fileID: 3372807454153173817}
+  instance: {fileID: 0}
 --- !u!95 &3372807453812901796
 Animator:
   serializedVersion: 3
@@ -182,6 +182,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8af9b9a53a289b4dab680b263dc35e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  idlepos: 0
+  instance: {fileID: 0}
 --- !u!1 &3372807454153173817
 GameObject:
   m_ObjectHideFlags: 0

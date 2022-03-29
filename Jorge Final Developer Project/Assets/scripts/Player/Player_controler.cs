@@ -13,10 +13,12 @@ public class Player_controler : MonoBehaviour
     private float timerSw;
 
     private Animator anim;
+    public Player_controler instance;
     
     void Start()
     {
         anim = GetComponent<Animator>();
+        instance = this;
     }
     void Update()
     {

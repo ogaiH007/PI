@@ -16,12 +16,13 @@ public class Player_animations : MonoBehaviour
     void Update()
     {
         MoveAnims();
+        WeponAnims();
     }
 
     void MoveAnims()
     {
         anim.SetInteger("idle_walk", idlepos);
-
+        
         if(Input.GetAxis("Vertical") > 0)
         {
             idlepos = 5;
