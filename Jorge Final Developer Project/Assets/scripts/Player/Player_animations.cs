@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Player_animations : MonoBehaviour
 {
+    string estadoatual;
+
     public int idlepos;
     private Animator anim;
 
@@ -16,55 +18,55 @@ public class Player_animations : MonoBehaviour
     void Update()
     {
         MoveAnims();
-        WeponAnims();
+        //WeponAnims();
     }
 
     void MoveAnims()
     {
-        anim.SetInteger("idle_walk", idlepos);
+        //anim.SetInteger("idle_walk", idlepos);
         
         if(Input.GetAxis("Vertical") > 0)
         {
-            idlepos = 5;
+            mudaranim("Walk_Up");
             transform.eulerAngles = new Vector3(0f, 0f, 0f);
         }
         if(Input.GetAxis("Vertical") < 0)
         {
-            idlepos = 4;
+            mudaranim("Walk_Donw");
             transform.eulerAngles = new Vector3(0f, 0f, 0f);
         }
         if(Input.GetAxis("Horizontal") > 0)
         {
-            idlepos = 6;
+            mudaranim("Walk_side");
             transform.eulerAngles = new Vector3(0f, 180f, 0f);
         }
         if(Input.GetAxis("Horizontal") < 0)
         {
-            idlepos = 6;
+            mudaranim("Walk_side");
             transform.eulerAngles = new Vector3(0f, 0f, 0f);
         }
 
         if(Input.GetAxis("Horizontal") == 0)
         {
-            if(idlepos == 6)
+            if(estadoatual == "Walk_side")
             {
-                idlepos = 3;
+                mudaranim("idle_side");
             }
         }
         if(Input.GetAxis("Vertical") == 0)
         {
-            if(idlepos == 4)
+            if(estadoatual == "Walk_Up")
             {
-                idlepos = 1;
+                mudaranim("idle_up");
             }
-            else if(idlepos == 5)
+            else if(estadoatual == "Walk_Donw")
             {
-                idlepos = 2;
+                mudaranim("idle_donw");
             }
         }
     }
 
-    void WeponAnims()
+    /*void WeponAnims()
     {
         if(Input.GetButtonDown("Fire1"))
         {
@@ -106,5 +108,14 @@ public class Player_animations : MonoBehaviour
                 }
             }
         }
+    }*/
+
+    void mudaranim(string novoestado)
+    {
+        if (estadoatual == novoestado) return;
+
+        anim.Play(novoestado);
+
+        estadoatual = novoestado;
     }
 }

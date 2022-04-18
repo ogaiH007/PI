@@ -337,7 +337,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 35bc972e8152c5f4e87d2dfa66d461eb, type: 3}
---- !u!1001 &3372807453887741991
+--- !u!1001 &1455351540
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -346,7 +346,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3372807453812901797, guid: 1bb9e0d60e7c5644fb0f9f7c33b2f202, type: 3}
       propertyPath: m_Name
-      value: link(player)
+      value: link(player) anims 2
       objectReference: {fileID: 0}
     - target: {fileID: 3372807453812901807, guid: 1bb9e0d60e7c5644fb0f9f7c33b2f202, type: 3}
       propertyPath: m_RootOrder
