@@ -75,6 +75,10 @@ public class Player_animations : MonoBehaviour
             {
                 mudaranim("LinkSword_donw");
             }
+            else if (estadoatual == "Walk_side" || estadoatual == "idle_side")
+            {
+                mudaranim("LinkSword_side");
+            }
         }
     }
 
