@@ -5,7 +5,7 @@ using UnityEngine;
 public class Player_animations : MonoBehaviour
 {
     string estadoatual;
-    bool usingsword;
+    public static bool usingsword;
 
     private Animator anim;
 
@@ -24,6 +24,8 @@ public class Player_animations : MonoBehaviour
 
     void MoveAnims()
     {
+        if(!usingsword)
+        {
         if (Input.GetAxis("Vertical") > 0)
         {
             mudaranim("Walk_Up");
@@ -62,6 +64,8 @@ public class Player_animations : MonoBehaviour
             {
                 mudaranim("idle_donw");
             }
+        }
+
         }
     }
 
