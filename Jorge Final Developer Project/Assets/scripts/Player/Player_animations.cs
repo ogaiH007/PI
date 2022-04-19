@@ -5,10 +5,12 @@ using UnityEngine;
 public class Player_animations : MonoBehaviour
 {
     string estadoatual;
+    bool usingsword;
 
     private Animator anim;
 
     public Player_animations instance;
+
     void Start()
     {
         anim = GetComponent<Animator>();
