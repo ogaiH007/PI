@@ -50,18 +50,18 @@ public class Player_animations : MonoBehaviour
 
         if (Input.GetAxis("Horizontal") == 0)
         {
-            if(estadoatual == "Walk_side")
+            if(estadoatual == "Walk_side" || ultimoestado == "Side")
             {
                 mudaranim("idle_side");
             }
         }
         if(Input.GetAxis("Vertical") == 0)
         {
-            if(estadoatual == "Walk_Up")
+            if(estadoatual == "Walk_Up" || ultimoestado == "Up")
             {
                 mudaranim("idle_up");
             }
-            else if(estadoatual == "Walk_Donw")
+            else if(estadoatual == "Walk_Donw" || ultimoestado == "Donw")
             {
                 mudaranim("idle_donw");
             }
@@ -78,14 +78,17 @@ public class Player_animations : MonoBehaviour
             if (estadoatual == "Walk_Up" || estadoatual == "idle_up")
             {
                 mudaranim("LinkSword_up");
+                ultimoestado = "Up";
             }
             else if (estadoatual == "Walk_Donw" || estadoatual == "idle_donw")
             {
                 mudaranim("LinkSword_donw");
+                ultimoestado = "Donw";
             }
             else if (estadoatual == "Walk_side" || estadoatual == "idle_side")
             {
                 mudaranim("LinkSword_side");
+                ultimoestado = "Side";
             }
         }
     }
