@@ -72,6 +72,7 @@ public class Player_controler : MonoBehaviour
                 Sword.SetActive(false);
                 activetimer = false;
                 usingwepon = false;
+                Player_animations.usingsword = false;
             }
         }
     }
