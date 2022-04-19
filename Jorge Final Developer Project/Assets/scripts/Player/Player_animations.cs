@@ -67,7 +67,15 @@ public class Player_animations : MonoBehaviour
     {
         if(Input.GetButtonDown("Fire1"))
         {
-            
+
+            if (estadoatual == "Walk_Up" || estadoatual == "idle_up")
+            {
+                mudaranim("LinkSword_up");
+            }
+            else if (estadoatual == "Walk_Donw" || estadoatual == "idle_donw")
+            {
+                mudaranim("LinkSword_donw");
+            }
         }
     }
 

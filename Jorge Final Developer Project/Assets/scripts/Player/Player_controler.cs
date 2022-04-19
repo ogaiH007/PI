@@ -68,9 +68,6 @@ public class Player_controler : MonoBehaviour
 
             if(timerSw >= SwTime)
             {
-                anim.SetBool("Sword_donw", false);
-                anim.SetBool("Sword_up", false);
-                anim.SetBool("Sword_side", false);
                 timerSw = 0f;
                 Sword.SetActive(false);
                 activetimer = false;
