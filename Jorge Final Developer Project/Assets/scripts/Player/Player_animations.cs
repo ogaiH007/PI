@@ -53,6 +53,7 @@ public class Player_animations : MonoBehaviour
             if(estadoatual == "Walk_side" || ultimoestado == "Side")
             {
                 mudaranim("idle_side");
+                ultimoestado = "null";
             }
         }
         if(Input.GetAxis("Vertical") == 0)
@@ -60,10 +61,12 @@ public class Player_animations : MonoBehaviour
             if(estadoatual == "Walk_Up" || ultimoestado == "Up")
             {
                 mudaranim("idle_up");
+                ultimoestado = "null";
             }
             else if(estadoatual == "Walk_Donw" || ultimoestado == "Donw")
             {
                 mudaranim("idle_donw");
+                ultimoestado = "null";
             }
         }
 
