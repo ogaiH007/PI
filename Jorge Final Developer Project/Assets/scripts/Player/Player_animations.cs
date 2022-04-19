@@ -69,7 +69,6 @@ public class Player_animations : MonoBehaviour
                     ultimoestado = "null";
                 }
             }
-
         }
     }
 
