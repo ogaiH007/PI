@@ -5,6 +5,7 @@ using UnityEngine;
 public class Player_animations : MonoBehaviour
 {
     string estadoatual;
+    string ultimoestado;
     public static bool usingsword;
 
     private Animator anim;
