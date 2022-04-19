@@ -81,17 +81,17 @@ public class Player_animations : MonoBehaviour
             if (estadoatual == "Walk_Up" || estadoatual == "idle_up")
             {
                 mudaranim("LinkSword_up");
-                ultimoestado = "Up";
+                //ultimoestado = "Up";
             }
             else if (estadoatual == "Walk_Donw" || estadoatual == "idle_donw")
             {
                 mudaranim("LinkSword_donw");
-                ultimoestado = "Donw";
+                //ultimoestado = "Donw";
             }
             else if (estadoatual == "Walk_side" || estadoatual == "idle_side")
             {
                 mudaranim("LinkSword_side");
-                ultimoestado = "Side";
+                //ultimoestado = "Side";
             }
         }
     }
