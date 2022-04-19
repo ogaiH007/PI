@@ -17,7 +17,7 @@ public class Player_animations : MonoBehaviour
     void Update()
     {
         MoveAnims();
-        //WeponAnims();
+        WeponAnims();
     }
 
     void MoveAnims()
@@ -67,7 +67,6 @@ public class Player_animations : MonoBehaviour
     {
         if(Input.GetButtonDown("Fire1"))
         {
-
             if (estadoatual == "Walk_Up" || estadoatual == "idle_up")
             {
                 mudaranim("LinkSword_up");
