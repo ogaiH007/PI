@@ -43,16 +43,16 @@ public class Player_controler : MonoBehaviour
         {
             Sword.transform.eulerAngles = new Vector3(0f, 0f, 180f);
         }
-        if(Input.GetAxis("Horizontal") > 0)
+        if(Input.GetAxis("Horizontal") > 0 && Input.GetAxis("Vertical") == 0)
         {
             Sword.transform.eulerAngles = new Vector3(0f, 0f, -90f);
         }
-        if(Input.GetAxis("Horizontal") < 0)
+        if(Input.GetAxis("Horizontal") < 0 && Input.GetAxis("Vertical") == 0)
         {
             Sword.transform.eulerAngles = new Vector3(0f, 0f, 90f);
         }
     }
-   void Wepon()
+    void Wepon()
     {
         if(Input.GetButtonDown("Fire1") && !activetimer)
         {

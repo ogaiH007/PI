@@ -7,8 +7,6 @@ public class Player_animations : MonoBehaviour
     string estadoatual;
     public string ultimoestado;
     public static bool usingsword;
-    bool walkingup;
-    bool walkingdonw;
 
     private Animator anim;
 
@@ -53,20 +51,23 @@ public class Player_animations : MonoBehaviour
 
             if (Input.GetAxis("Horizontal") == 0)
             {
-                if (estadoatual == "Walk_side")
+                if (estadoatual == "Walk_side" || ultimoestado == "Side")
                 {
                     mudaranim("idle_side");
+                    ultimoestado = "Null";
                 }
             }//parado de lado
             if (Input.GetAxis("Vertical") == 0)
             {
-                if (estadoatual == "Walk_Up")
+                if (estadoatual == "Walk_Up" || ultimoestado == "Up")
                 {
                     mudaranim("idle_up");
+                    ultimoestado = "Null";
                 }//parado para cima
-                else if(estadoatual == "Walk_Donw")
+                else if(estadoatual == "Walk_Donw" || ultimoestado == "Donw")
                 {
                     mudaranim("idle_donw");
+                    ultimoestado = "Null";
                 }//parado para baixo
             }//parado para cima ou baixo
         }
