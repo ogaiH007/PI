@@ -16,6 +16,8 @@ public class Player_animations : MonoBehaviour
     {
         anim = GetComponent<Animator>();
         instance = this;
+        usingsword = false;
+        ultimoestado = PlayerPrefs.GetString("Visao");
     }
     void Update()
     {
@@ -54,6 +56,7 @@ public class Player_animations : MonoBehaviour
                 if (estadoatual == "Walk_side" || ultimoestado == "Side")
                 {
                     mudaranim("idle_side");
+                    PlayerPrefs.SetString("Visao", "Side");
                     ultimoestado = "Null";
                 }
             }//parado de lado
@@ -62,11 +65,13 @@ public class Player_animations : MonoBehaviour
                 if (estadoatual == "Walk_Up" || ultimoestado == "Up")
                 {
                     mudaranim("idle_up");
+                    PlayerPrefs.SetString("Visao", "Up");
                     ultimoestado = "Null";
                 }//parado para cima
                 else if(estadoatual == "Walk_Donw" || ultimoestado == "Donw")
                 {
                     mudaranim("idle_donw");
+                    PlayerPrefs.SetString("Visao", "Donw");
                     ultimoestado = "Null";
                 }//parado para baixo
             }//parado para cima ou baixo

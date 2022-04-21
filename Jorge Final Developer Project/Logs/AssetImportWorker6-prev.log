@@ -9,18 +9,13 @@ C:\Program Files\Unity 2020.3.23f1\Editor\Unity.exe
 -batchMode
 -noUpm
 -name
-AssetImportWorker2
+AssetImportWorker6
 -projectPath
 C:/Users/ogaih/Documents/Repositorios/PI/Jorge Final Developer Project
 -logFile
-Logs/AssetImportWorker2.log
+Logs/AssetImportWorker6.log
 -srvPort
-49695
+60689
 Successfully changed project path to: C:/Users/ogaih/Documents/Repositorios/PI/Jorge Final Developer Project
 C:/Users/ogaih/Documents/Repositorios/PI/Jorge Final Developer Project
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 18606.79 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Initialize engine version: 2020.3.23f1 (c5d91304a876)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity 2020.3.23f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/ogaih/Documents/Repositorios/PI/Jorge Final Developer Project/Assets
