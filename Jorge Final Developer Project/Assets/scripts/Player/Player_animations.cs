@@ -53,10 +53,18 @@ public class Player_animations : MonoBehaviour
 
             if (Input.GetAxis("Horizontal") == 0)
             {
-                if (estadoatual == "Walk_side" || ultimoestado == "Side")
+                if (estadoatual == "Walk_side" || ultimoestado == "SideR")
                 {
                     mudaranim("idle_side");
-                    PlayerPrefs.SetString("Visao", "Side");
+                    transform.eulerAngles = new Vector3(0f, 180f, 0f);
+                    PlayerPrefs.SetString("Visao", "SideR");
+                    ultimoestado = "Null";
+                }
+                if (estadoatual == "Walk_side" || ultimoestado == "SideL")
+                {
+                    mudaranim("idle_side");
+                    transform.eulerAngles = new Vector3(0f, 0f, 0f);
+                    PlayerPrefs.SetString("Visao", "SideL");
                     ultimoestado = "Null";
                 }
             }//parado de lado
