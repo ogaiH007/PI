@@ -58,7 +58,7 @@ public class Player_animations : MonoBehaviour
                 {
                     mudaranim("idle_side");
                     transform.eulerAngles = new Vector3(0f, 180f, 0f);
-                    PlayerPrefs.SetString("Visao", "SideR");
+                    //PlayerPrefs.SetString("Visao", "SideR");
                     ultimoestado = "Null";
                 }
                 if (estadoatual == "Walk_side" || ultimoestado == "SideL")
