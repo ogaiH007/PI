@@ -96,7 +96,14 @@ public class Player_animations : MonoBehaviour
             else if (estadoatual == "Walk_side" || estadoatual == "idle_side")
             {
                 mudaranim("LinkSword_side");
-                ultimoestado = "Side";
+                if(transform.eulerAngles == new Vector3(0f, 180f, 0f))
+                {
+                    ultimoestado = "SideR";
+                }
+                else if (transform.eulerAngles == new Vector3(0f, 0f, 0f))
+                {
+                    ultimoestado = "SideL";
+                }
             }
         }
     }
