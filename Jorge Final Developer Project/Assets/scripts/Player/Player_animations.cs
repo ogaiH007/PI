@@ -58,14 +58,14 @@ public class Player_animations : MonoBehaviour
 
             if (Input.GetAxis("Horizontal") == 0)
             {
-                if (estadoatual == "Walk_side" || ultimoestado == "SideR")
+                if (ultimoestado == "SideR")
                 {
                     mudaranim("idle_side");
                     transform.eulerAngles = new Vector3(0f, 180f, 0f);
                     PlayerPrefs.SetString("Visao", "SideR");
                     ultimoestado = "Null";
                 }
-                if (estadoatual == "Walk_side" || ultimoestado == "SideL")
+                if (ultimoestado == "SideL")
                 {
                     mudaranim("idle_side");
                     transform.eulerAngles = new Vector3(0f, 0f, 0f);
@@ -75,13 +75,13 @@ public class Player_animations : MonoBehaviour
             }//parado de lado
             if (Input.GetAxis("Vertical") == 0)
             {
-                if (estadoatual == "Walk_Up" || ultimoestado == "Up")
+                if (ultimoestado == "Up")
                 {
                     mudaranim("idle_up");
                     PlayerPrefs.SetString("Visao", "Up");
                     ultimoestado = "Null";
                 }//parado para cima
-                else if(estadoatual == "Walk_Donw" || ultimoestado == "Donw")
+                else if(ultimoestado == "Donw")
                 {
                     mudaranim("idle_donw");
                     PlayerPrefs.SetString("Visao", "Donw");
@@ -100,11 +100,11 @@ public class Player_animations : MonoBehaviour
             {
                 mudaranim("LinkSword_up");
             }
-            else if (estadoatual == "Walk_Donw" || estadoatual == "idle_donw")
+            if (estadoatual == "Walk_Donw" || estadoatual == "idle_donw")
             {
                 mudaranim("LinkSword_donw");
             }
-            else if (estadoatual == "Walk_side" || estadoatual == "idle_side")
+            if (estadoatual == "Walk_side" || estadoatual == "idle_side")
             {
                 mudaranim("LinkSword_side");
             }
