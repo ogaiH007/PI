@@ -23,7 +23,6 @@ public class Player_animations : MonoBehaviour
     {
         MoveAnims();
         WeponAnims();
-        Debug.Log(PlayerPrefs.GetString("Visao"));
     }
 
     void MoveAnims()
