@@ -45,11 +45,13 @@ public class Player_animations : MonoBehaviour
             {
                 mudaranim("Walk_side");
                 transform.eulerAngles = new Vector3(0f, 180f, 0f);
+                ultimoestado = "SideR";
             }//andar apenas para direita
             if (Input.GetAxis("Horizontal") < 0 && Input.GetAxis("Vertical") == 0)
             {
                 mudaranim("Walk_side");
                 transform.eulerAngles = new Vector3(0f, 0f, 0f);
+                ultimoestado = "SideL";
             }//andar apenas para equerda
 
             if (Input.GetAxis("Horizontal") == 0)
@@ -57,8 +59,8 @@ public class Player_animations : MonoBehaviour
                 if (estadoatual == "Walk_side" || ultimoestado == "SideR")
                 {
                     mudaranim("idle_side");
-                    //transform.eulerAngles = new Vector3(0f, 180f, 0f);
-                    //PlayerPrefs.SetString("Visao", "SideR");
+                    transform.eulerAngles = new Vector3(0f, 180f, 0f);
+                    PlayerPrefs.SetString("Visao", "SideR");
                     ultimoestado = "Null";
                 }
                 if (estadoatual == "Walk_side" || ultimoestado == "SideL")
@@ -105,14 +107,14 @@ public class Player_animations : MonoBehaviour
             else if (estadoatual == "Walk_side" || estadoatual == "idle_side")
             {
                 mudaranim("LinkSword_side");
-                if(transform.eulerAngles == new Vector3(0f, 180f, 0f))
+                /*if(Look == "SideR")
                 {
                     ultimoestado = "SideR";
                 }
-                else if (transform.eulerAngles == new Vector3(0f, 0f, 0f))
+                if(Look == "SideL")
                 {
                     ultimoestado = "SideL";
-                }
+                }*/
             }
         }
     }
