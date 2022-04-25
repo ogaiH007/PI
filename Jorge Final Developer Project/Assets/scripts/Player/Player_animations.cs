@@ -34,11 +34,13 @@ public class Player_animations : MonoBehaviour
             {
                 mudaranim("Walk_Up");
                 transform.eulerAngles = new Vector3(0f, 0f, 0f);
+                ultimoestado = "Up";
             }//andar apenas para cima
             if (Input.GetAxis("Vertical") < 0 && Input.GetAxis("Horizontal") == 0)
             {
                 mudaranim("Walk_Donw");
                 transform.eulerAngles = new Vector3(0f, 0f, 0f);
+                ultimoestado = "Donw";
             }//andar apenas para baixo
 
             if (Input.GetAxis("Horizontal") > 0 && Input.GetAxis("Vertical") == 0)
@@ -97,24 +99,14 @@ public class Player_animations : MonoBehaviour
             if (estadoatual == "Walk_Up" || estadoatual == "idle_up")
             {
                 mudaranim("LinkSword_up");
-                ultimoestado = "Up";
             }
             else if (estadoatual == "Walk_Donw" || estadoatual == "idle_donw")
             {
                 mudaranim("LinkSword_donw");
-                ultimoestado = "Donw";
             }
             else if (estadoatual == "Walk_side" || estadoatual == "idle_side")
             {
                 mudaranim("LinkSword_side");
-                /*if(Look == "SideR")
-                {
-                    ultimoestado = "SideR";
-                }
-                if(Look == "SideL")
-                {
-                    ultimoestado = "SideL";
-                }*/
             }
         }
     }
