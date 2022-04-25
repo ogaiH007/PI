@@ -23,6 +23,7 @@ public class Player_animations : MonoBehaviour
     {
         MoveAnims();
         WeponAnims();
+        Debug.Log(PlayerPrefs.GetString("Visao"));
     }
 
     void MoveAnims()
@@ -56,7 +57,7 @@ public class Player_animations : MonoBehaviour
                 if (estadoatual == "Walk_side" || ultimoestado == "SideR")
                 {
                     mudaranim("idle_side");
-                    //transform.eulerAngles = new Vector3(0f, 180f, 0f);
+                    transform.eulerAngles = new Vector3(0f, 180f, 0f);
                     PlayerPrefs.SetString("Visao", "SideR");
                     ultimoestado = "Null";
                 }
