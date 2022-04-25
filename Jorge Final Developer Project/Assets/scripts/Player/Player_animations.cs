@@ -64,15 +64,15 @@ public class Player_animations : MonoBehaviour
                     transform.eulerAngles = new Vector3(0f, 180f, 0f);
                     PlayerPrefs.SetString("Visao", "SideR");
                     ultimoestado = "Null";
-                }
+                }//parado para Direita
                 if (ultimoestado == "SideL")
                 {
                     mudaranim("idle_side");
                     transform.eulerAngles = new Vector3(0f, 0f, 0f);
                     PlayerPrefs.SetString("Visao", "SideL");
                     ultimoestado = "Null";
-                }
-            }//parado de lado
+                }//parado para Esquerda
+            }//parado para Direita ou Esquerda
             if (Input.GetAxis("Vertical") == 0)
             {
                 if (ultimoestado == "Up")
