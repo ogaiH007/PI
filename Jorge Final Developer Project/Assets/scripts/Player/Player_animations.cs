@@ -4,14 +4,20 @@ using UnityEngine;
 
 public class Player_animations : MonoBehaviour
 {
-    public int idlepos;
+    string estadoatual;
+    public string ultimoestado;
+    public static bool usingsword;
+
     private Animator anim;
 
     public Player_animations instance;
+
     void Start()
     {
         anim = GetComponent<Animator>();
         instance = this;
+        usingsword = false;
+        ultimoestado = PlayerPrefs.GetString("Visao");
     }
     void Update()
     {
@@ -21,46 +27,66 @@ public class Player_animations : MonoBehaviour
 
     void MoveAnims()
     {
-        anim.SetInteger("idle_walk", idlepos);
-        
-        if(Input.GetAxis("Vertical") > 0)
+        if(!usingsword)
         {
-            idlepos = 5;
-            transform.eulerAngles = new Vector3(0f, 0f, 0f);
-        }
-        if(Input.GetAxis("Vertical") < 0)
-        {
-            idlepos = 4;
-            transform.eulerAngles = new Vector3(0f, 0f, 0f);
-        }
-        if(Input.GetAxis("Horizontal") > 0)
-        {
-            idlepos = 6;
-            transform.eulerAngles = new Vector3(0f, 180f, 0f);
-        }
-        if(Input.GetAxis("Horizontal") < 0)
-        {
-            idlepos = 6;
-            transform.eulerAngles = new Vector3(0f, 0f, 0f);
-        }
+            if (Input.GetAxis("Vertical") > 0 && Input.GetAxis("Horizontal") == 0)
+            {
+                mudaranim("Walk_Up");
+                transform.eulerAngles = new Vector3(0f, 0f, 0f);
+                ultimoestado = "Up";
+            }//andar apenas para cima
+            if (Input.GetAxis("Vertical") < 0 && Input.GetAxis("Horizontal") == 0)
+            {
+                mudaranim("Walk_Donw");
+                transform.eulerAngles = new Vector3(0f, 0f, 0f);
+                ultimoestado = "Donw";
+            }//andar apenas para baixo
 
-        if(Input.GetAxis("Horizontal") == 0)
-        {
-            if(idlepos == 6)
+            if (Input.GetAxis("Horizontal") > 0 && Input.GetAxis("Vertical") == 0)
             {
-                idlepos = 3;
-            }
-        }
-        if(Input.GetAxis("Vertical") == 0)
-        {
-            if(idlepos == 4)
+                mudaranim("Walk_side");
+                transform.eulerAngles = new Vector3(0f, 180f, 0f);
+                ultimoestado = "SideR";
+            }//andar apenas para direita
+            if (Input.GetAxis("Horizontal") < 0 && Input.GetAxis("Vertical") == 0)
             {
-                idlepos = 1;
-            }
-            else if(idlepos == 5)
+                mudaranim("Walk_side");
+                transform.eulerAngles = new Vector3(0f, 0f, 0f);
+                ultimoestado = "SideL";
+            }//andar apenas para equerda
+
+            if (Input.GetAxis("Horizontal") == 0)
             {
-                idlepos = 2;
-            }
+                if (ultimoestado == "SideR")
+                {
+                    mudaranim("idle_side");
+                    transform.eulerAngles = new Vector3(0f, 180f, 0f);
+                    PlayerPrefs.SetString("Visao", "SideR");
+                    ultimoestado = "Null";
+                }//parado para Direita
+                if (ultimoestado == "SideL")
+                {
+                    mudaranim("idle_side");
+                    transform.eulerAngles = new Vector3(0f, 0f, 0f);
+                    PlayerPrefs.SetString("Visao", "SideL");
+                    ultimoestado = "Null";
+                }//parado para Esquerda
+            }//parado para Direita ou Esquerda
+            if (Input.GetAxis("Vertical") == 0)
+            {
+                if (ultimoestado == "Up")
+                {
+                    mudaranim("idle_up");
+                    PlayerPrefs.SetString("Visao", "Up");
+                    ultimoestado = "Null";
+                }//parado para cima
+                else if(ultimoestado == "Donw")
+                {
+                    mudaranim("idle_donw");
+                    PlayerPrefs.SetString("Visao", "Donw");
+                    ultimoestado = "Null";
+                }//parado para baixo
+            }//parado para cima ou baixo
         }
     }
 
@@ -68,43 +94,38 @@ public class Player_animations : MonoBehaviour
     {
         if(Input.GetButtonDown("Fire1"))
         {
-            if(Input.GetAxis("Vertical") < 0)
+            usingsword = true;
+            if (estadoatual == "Walk_Up" || estadoatual == "idle_up")
             {
-                anim.SetBool("Sword_donw", true);
+                mudaranim("LinkSword_up");
+                ultimoestado = "Up";
             }
-            if(Input.GetAxis("Vertical") > 0)
+            if (estadoatual == "Walk_Donw" || estadoatual == "idle_donw")
             {
-                anim.SetBool("Sword_up", true);
+                mudaranim("LinkSword_donw");
+                ultimoestado = "Donw";
             }
-            if(Input.GetAxis("Horizontal") > 0)
+            if (estadoatual == "Walk_side" || estadoatual == "idle_side")
             {
-                anim.SetBool("Sword_side", true);
-                transform.eulerAngles = new Vector3(0f, 0f, 0f);
-            }
-            if(Input.GetAxis("Horizontal") < 0)
-            {
-                anim.SetBool("Sword_side", true);
-                transform.eulerAngles = new Vector3(0f, 180f, 0f);
-            }
-            
-            if(Input.GetAxis("Vertical") == 0)
-            {
-                if(idlepos == 1)
+                mudaranim("LinkSword_side");
+                if(transform.eulerAngles.y == 180f)
                 {
-                    anim.SetBool("Sword_donw", true);
+                    ultimoestado = "SideR";
                 }
-                else if(idlepos == 2)
+                if (transform.eulerAngles.y == 0f)
                 {
-                    anim.SetBool("Sword_up", true);
-                }
-            }
-            if(Input.GetAxis("Horizontal") == 0)
-            {
-                if(idlepos == 3)
-                {
-                    anim.SetBool("Sword_side", true);
+                    ultimoestado = "SideL";
                 }
             }
         }
+    }
+
+    void mudaranim(string novoestado)
+    {
+        if (estadoatual == novoestado) return;
+
+        anim.Play(novoestado);
+
+        estadoatual = novoestado;
     }
 }
