@@ -35,27 +35,28 @@ public class Player_controler : MonoBehaviour
             transform.position += movimento * Time.deltaTime * speed;
         }
 
-        if(Input.GetAxis("Vertical") > 0)
+        if(Input.GetAxis("Vertical") > 0 && Input.GetAxis("Horizontal") == 0)
         {
             Sword.transform.eulerAngles = new Vector3(0f, 0f, 0f);
         }
-        if(Input.GetAxis("Vertical") < 0)
+        if(Input.GetAxis("Vertical") < 0 && Input.GetAxis("Horizontal") == 0)
         {
             Sword.transform.eulerAngles = new Vector3(0f, 0f, 180f);
         }
-        if(Input.GetAxis("Horizontal") > 0)
+        if(Input.GetAxis("Horizontal") > 0 && Input.GetAxis("Vertical") == 0)
         {
             Sword.transform.eulerAngles = new Vector3(0f, 0f, -90f);
         }
-        if(Input.GetAxis("Horizontal") < 0)
+        if(Input.GetAxis("Horizontal") < 0 && Input.GetAxis("Vertical") == 0)
         {
             Sword.transform.eulerAngles = new Vector3(0f, 0f, 90f);
         }
     }
-   void Wepon()
+    void Wepon()
     {
-        if(Input.GetButtonDown("Fire1") && !activetimer)
+        if(Input.GetButtonDown("Fire1") && !activetimer && !usingwepon)
         {
+            Sword.SetActive(true);
             usingwepon = true;
             activetimer = true;
         }
@@ -68,13 +69,11 @@ public class Player_controler : MonoBehaviour
 
             if(timerSw >= SwTime)
             {
-                anim.SetBool("Sword_donw", false);
-                anim.SetBool("Sword_up", false);
-                anim.SetBool("Sword_side", false);
                 timerSw = 0f;
                 Sword.SetActive(false);
                 activetimer = false;
                 usingwepon = false;
+                Player_animations.usingsword = false;
             }
         }
     }
