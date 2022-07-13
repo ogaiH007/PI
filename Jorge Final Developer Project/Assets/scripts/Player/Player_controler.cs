@@ -62,6 +62,12 @@ public class Player_controler : MonoBehaviour
                 usingwepon = true;
                 activetimer = true;
             }
+            else if(usingwepon)
+            {
+                timerSw = 0f;
+                Sword.SetActive(false);
+                Sword.SetActive(true);
+            }
         }
     }
     void TimerControler()
