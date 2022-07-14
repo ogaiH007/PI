@@ -13,7 +13,7 @@ public class Player_controler : MonoBehaviour
     private float timerSw;
 
     private Animator anim;
-    public Player_controler instance;
+    private Player_controler instance;
     
     void Start()
     {
@@ -61,12 +61,6 @@ public class Player_controler : MonoBehaviour
                 Sword.SetActive(true);
                 usingwepon = true;
                 activetimer = true;
-            }
-            else if(usingwepon)
-            {
-                timerSw = 0f;
-                Sword.SetActive(false);
-                Sword.SetActive(true);
             }
         }
     }
