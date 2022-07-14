@@ -7,6 +7,7 @@ public class InimigoPerseguidor : MonoBehaviour
     private Transform posPlayer;
 
     public float EniSpeed;
+
     void Start()
     {
         posPlayer = GameObject.FindGameObjectWithTag("Player").transform;
