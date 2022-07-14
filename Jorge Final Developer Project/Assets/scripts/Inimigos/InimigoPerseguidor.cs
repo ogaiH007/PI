@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class InimigoPerserguidor : MonoBehaviour
+public class InimigoPerseguidor : MonoBehaviour
 {
     private Transform posPlayer;
 
