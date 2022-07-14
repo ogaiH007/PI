@@ -9,6 +9,8 @@ public class Player_Life : MonoBehaviour
     public GameObject heath1;
     public GameObject heath2;
     public GameObject heath3;
+    public GameObject GameOverTitle;
+    public GameObject PlayerObject;
 
     void Start()
     {
@@ -49,6 +51,29 @@ public class Player_Life : MonoBehaviour
             heath1.SetActive(false);
             heath2.SetActive(false);
             heath3.SetActive(false);
+            GameOverTitle.SetActive(true);
+            PlayerObject.SetActive(false);
         }
+        if(Player_life > 3)
+        {
+            Player_life = 3;
+        }
+    }
+    void OnTriggerEnter2D(Collider2D collider)
+    {
+        if (collider.gameObject.tag == "Extra_Life")
+        {
+            Player_life += 1;
+        }
+        if (collider.gameObject.tag == "Enimy")
+        {
+            Player_life -= 1;
+        }
+    }
+
+    public void SetLife(int newlife)
+    {
+        Player_life = newlife;
+        PlayerPrefs.SetInt("PlayerLife", Player_life);
     }
 }
