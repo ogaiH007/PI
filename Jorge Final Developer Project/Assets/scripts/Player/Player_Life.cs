@@ -70,6 +70,17 @@ public class Player_Life : MonoBehaviour
             Player_life -= 1;
         }
     }
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "Extra_Life")
+        {
+            Player_life += 1;
+        }
+        if (collision.gameObject.tag == "Enimy")
+        {
+            Player_life -= 1;
+        }
+    }
 
     public void SetLife(int newlife)
     {
