@@ -4,15 +4,24 @@ using UnityEngine;
 
 public class InimigoPerserguidor : MonoBehaviour
 {
-    // Start is called before the first frame update
+    private Transform posPlayer;
+
+    public float EniSpeed;
     void Start()
     {
-        
+        posPlayer = GameObject.FindGameObjectWithTag("Player").transform;
     }
 
-    // Update is called once per frame
     void Update()
     {
-        
+        seguirPlayer();
+    }
+
+    void seguirPlayer()
+    {
+        if (posPlayer.gameObject != null)
+        {
+            transform.position = Vector2.MoveTowards(transform.position, posPlayer.position, EniSpeed * Time.deltaTime);
+        }
     }
 }
