@@ -17,4 +17,8 @@ public class GameControler : MonoBehaviour
     {
         Application.Quit();
     }
+    public void SetLife(int newlife)
+    {
+        PlayerPrefs.SetInt("PlayerLife", newlife);
+    }
 }
