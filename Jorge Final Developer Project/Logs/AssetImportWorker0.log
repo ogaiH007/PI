@@ -155,3 +155,11 @@ Received Import Request.
 Start importing Assets/scripts/Player/Player_Life.cs using Guid(a54fa9023336a4247b8664fa13dbe760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fdec5d17302dccbea7880b4650f8e9f') in 0.078154 seconds 
   Import took 2.171162 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 72.302228 seconds.
+  path: Assets/scripts/Player/Player_Life.cs
+  artifactKey: Guid(a54fa9023336a4247b8664fa13dbe760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/Player/Player_Life.cs using Guid(a54fa9023336a4247b8664fa13dbe760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10dc1a99495a0a3820dd126f6fcaf5f8') in 0.064483 seconds 
+  Import took 0.137192 seconds .
+
