@@ -28,57 +28,81 @@ public class Player_Life : MonoBehaviour
 
     void UpdateLifeIcon()
     {
-        if(Player_life == 3)
-        {
-            heath1.SetActive(true);
-            heath2.SetActive(true);
-            heath3.SetActive(true);
-        }
-        if (Player_life == 2)
-        {
-            heath1.SetActive(true);
-            heath2.SetActive(true);
-            heath3.SetActive(false);
-        }
-        if (Player_life == 1)
-        {
-            heath1.SetActive(true);
-            heath2.SetActive(false);
-            heath3.SetActive(false);
-        }
-        if (Player_life == 0)
-        {
-            heath1.SetActive(false);
-            heath2.SetActive(false);
-            heath3.SetActive(false);
-            GameOverTitle.SetActive(true);
-            PlayerObject.SetActive(false);
-        }
+
         if(Player_life > 3)
         {
             Player_life = 3;
         }
+
+        switch(Player_life)
+        {
+            case 0:
+                
+                heath1.SetActive(false);
+                heath2.SetActive(false);
+                heath3.SetActive(false);
+                GameOverTitle.SetActive(true);
+                PlayerObject.SetActive(false);
+                
+                break;
+            
+            case 1:
+
+                heath1.SetActive(true);
+                heath2.SetActive(false);
+                heath3.SetActive(false);
+
+                break;
+            
+            case 2:
+
+                heath1.SetActive(true);
+                heath2.SetActive(true);
+                heath3.SetActive(false);
+
+                break;
+            
+            case 3:
+
+                heath1.SetActive(true);
+                heath2.SetActive(true);
+                heath3.SetActive(true);
+
+                break;
+        }
     }
     void OnTriggerEnter2D(Collider2D collider)
     {
-        if (collider.gameObject.tag == "Extra_Life")
+        switch(collider.gameObject.tag)
         {
-            Player_life += 1;
-        }
-        if (collider.gameObject.tag == "Enimy")
-        {
-            Player_life -= 1;
+            case "Extra_Life":
+
+                Player_life += 1;
+
+                break;
+
+            case "Enimy":
+
+                Player_life -= 1;
+
+                break;
         }
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.tag == "Extra_Life")
+        switch (collision.gameObject.tag)
         {
-            Player_life += 1;
-        }
-        if (collision.gameObject.tag == "Enimy")
-        {
-            Player_life -= 1;
+            case "Extra_Life":
+
+                Player_life += 1;
+
+                break;
+
+            case "Enimy":
+
+                Player_life -= 1;
+
+                break;
         }
     }
 
