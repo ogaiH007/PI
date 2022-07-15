@@ -15,10 +15,10 @@ public class InimigoPerseguidor : MonoBehaviour
 
     void Update()
     {
-        seguirPlayer();
+        SeguirPlayer();
     }
 
-    void seguirPlayer()
+    void SeguirPlayer()
     {
         if (posPlayer.gameObject != null)
         {
