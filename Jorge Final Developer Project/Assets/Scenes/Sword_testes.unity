@@ -130,6 +130,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 820043833003875589, guid: 3164c895cb8e1dd418d6723ec1cc8802, type: 3}
+      propertyPath: m_Simulated
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1062244602357340774, guid: 3164c895cb8e1dd418d6723ec1cc8802, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5409768355894000495, guid: 3164c895cb8e1dd418d6723ec1cc8802, type: 3}
+      propertyPath: m_FlipX
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5409768355894000495, guid: 3164c895cb8e1dd418d6723ec1cc8802, type: 3}
+      propertyPath: m_FlipY
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5774788080666549923, guid: 3164c895cb8e1dd418d6723ec1cc8802, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5774788080666549923, guid: 3164c895cb8e1dd418d6723ec1cc8802, type: 3}
+      propertyPath: m_TagString
+      value: Wepon
+      objectReference: {fileID: 0}
     - target: {fileID: 7884646904647775240, guid: 3164c895cb8e1dd418d6723ec1cc8802, type: 3}
       propertyPath: m_Name
       value: Essenciais
@@ -177,6 +201,18 @@ PrefabInstance:
     - target: {fileID: 7884646904647775247, guid: 3164c895cb8e1dd418d6723ec1cc8802, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8445591655844930809, guid: 3164c895cb8e1dd418d6723ec1cc8802, type: 3}
+      propertyPath: m_FlipX
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8445591655844930809, guid: 3164c895cb8e1dd418d6723ec1cc8802, type: 3}
+      propertyPath: m_FlipY
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8445591655844930809, guid: 3164c895cb8e1dd418d6723ec1cc8802, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3164c895cb8e1dd418d6723ec1cc8802, type: 3}
@@ -380,7 +416,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: faba351ee7b5fb141a8736d9db2c3a8f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  EniSpeed: 4
+  EniSpeed: 1
 --- !u!1001 &3577481466702434177
 PrefabInstance:
   m_ObjectHideFlags: 0

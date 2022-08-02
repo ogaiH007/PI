@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Enimy
   - Extra_Life
+  - Wepon
   layers:
   - Default
   - TransparentFX

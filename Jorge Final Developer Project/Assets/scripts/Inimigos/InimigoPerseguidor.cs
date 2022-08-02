@@ -25,4 +25,26 @@ public class InimigoPerseguidor : MonoBehaviour
             transform.position = Vector2.MoveTowards(transform.position, posPlayer.position, EniSpeed * Time.deltaTime);
         }
     }
+    void OnTriggerEnter2D(Collider2D collider)
+    {
+        switch (collider.gameObject.tag)
+        {
+            case "sla":
+
+                Debug.Log("Trst");
+
+                break;
+        }
+    }
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        switch (collision.gameObject.tag)
+        {
+            case "sla":
+
+                Debug.Log("Trst");
+
+                break;
+        }
+    }
 }
