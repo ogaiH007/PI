@@ -321,7 +321,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!50 &1888541910
 Rigidbody2D:
   serializedVersion: 4
@@ -454,7 +454,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3577481467082234616, guid: d6bb5aced786bb24c9e15a24fb4534b5, type: 3}
       propertyPath: m_IsTrigger
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3577481467082234618, guid: d6bb5aced786bb24c9e15a24fb4534b5, type: 3}
       propertyPath: m_RootOrder
