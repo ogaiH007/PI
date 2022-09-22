@@ -456,6 +456,22 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3577481467082234616, guid: d6bb5aced786bb24c9e15a24fb4534b5, type: 3}
+      propertyPath: m_SpriteTilingProperty.drawMode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3577481467082234616, guid: d6bb5aced786bb24c9e15a24fb4534b5, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3577481467082234616, guid: d6bb5aced786bb24c9e15a24fb4534b5, type: 3}
+      propertyPath: m_SpriteTilingProperty.adaptiveTiling
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3577481467082234616, guid: d6bb5aced786bb24c9e15a24fb4534b5, type: 3}
+      propertyPath: m_SpriteTilingProperty.adaptiveTilingThreshold
+      value: 0.709
+      objectReference: {fileID: 0}
     - target: {fileID: 3577481467082234618, guid: d6bb5aced786bb24c9e15a24fb4534b5, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -499,6 +515,42 @@ PrefabInstance:
     - target: {fileID: 3577481467082234618, guid: d6bb5aced786bb24c9e15a24fb4534b5, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3577481467082234619, guid: d6bb5aced786bb24c9e15a24fb4534b5, type: 3}
+      propertyPath: m_FlipX
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3577481467082234619, guid: d6bb5aced786bb24c9e15a24fb4534b5, type: 3}
+      propertyPath: m_FlipY
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3577481467082234619, guid: d6bb5aced786bb24c9e15a24fb4534b5, type: 3}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3577481467082234619, guid: d6bb5aced786bb24c9e15a24fb4534b5, type: 3}
+      propertyPath: m_Size.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3577481467082234619, guid: d6bb5aced786bb24c9e15a24fb4534b5, type: 3}
+      propertyPath: m_DrawMode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3577481467082234619, guid: d6bb5aced786bb24c9e15a24fb4534b5, type: 3}
+      propertyPath: m_SpriteTileMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3577481467082234619, guid: d6bb5aced786bb24c9e15a24fb4534b5, type: 3}
+      propertyPath: m_MaskInteraction
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3577481467082234619, guid: d6bb5aced786bb24c9e15a24fb4534b5, type: 3}
+      propertyPath: m_SpriteSortPoint
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3577481467082234619, guid: d6bb5aced786bb24c9e15a24fb4534b5, type: 3}
+      propertyPath: m_AdaptiveModeThreshold
+      value: 0.709
       objectReference: {fileID: 0}
     - target: {fileID: 3577481467792193117, guid: d6bb5aced786bb24c9e15a24fb4534b5, type: 3}
       propertyPath: m_IsActive
