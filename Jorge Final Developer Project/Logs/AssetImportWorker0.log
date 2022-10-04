@@ -388,3 +388,4 @@ Received Import Request.
 Start importing Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/9-Sliced.png using Guid(71ebafeef3c03457483266a33ab2b270) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ea08e4411f98851f91f00718d3ff46f') in 0.151259 seconds 
   Import took 0.169084 seconds .
 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
