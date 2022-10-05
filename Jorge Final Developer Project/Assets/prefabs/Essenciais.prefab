@@ -546,7 +546,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1381473233}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
@@ -701,7 +701,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Prabens!! \nvoce \xE9 t\xE3o ruim que morreu na Alpha"
+  m_Text: "Parab\xEAns!! \nvoce \xE9 t\xE3o ruim que morreu na Alpha!"
 --- !u!1 &1566572095
 GameObject:
   m_ObjectHideFlags: 0
@@ -1113,11 +1113,11 @@ GameObject:
   - component: {fileID: 5699742742414091966}
   m_Layer: 0
   m_Name: sword
-  m_TagString: Untagged
+  m_TagString: sla
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &2894720175790052001
 Transform:
   m_ObjectHideFlags: 0
@@ -1195,7 +1195,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d12e2dc13390a5b4bb75fb3d6d1e1364, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dano_causado: 5
 --- !u!50 &820043833003875589
 Rigidbody2D:
   serializedVersion: 4
@@ -1205,7 +1204,7 @@ Rigidbody2D:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5774788080666549923}
   m_BodyType: 0
-  m_Simulated: 1
+  m_Simulated: 0
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
@@ -1715,7 +1714,7 @@ GameObject:
   - component: {fileID: 1062244602357340774}
   - component: {fileID: 4457758664940714054}
   - component: {fileID: 6207900097828799095}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: link(player)
   m_TagString: Player
   m_Icon: {fileID: 0}

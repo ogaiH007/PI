@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.43667555, g: 0.4842713, b: 0.5645231, a: 1}
+  m_IndirectSpecularColor: {r: 0.43667564, g: 0.48427135, b: 0.5645232, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -278,7 +278,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 313943931}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: GameControler, Assembly-CSharp
         m_MethodName: restart
         m_Mode: 5
@@ -671,17 +671,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 156923018}
   m_CullTransparentMesh: 1
---- !u!114 &313943931 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 1464298407251234856, guid: dad9d5f5bf2b1fa4a85394101abfa0f4, type: 3}
-  m_PrefabInstance: {fileID: 491525218}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e64b36509e5491f4e96d307143a92aeb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &403251640
 GameObject:
   m_ObjectHideFlags: 0
@@ -904,71 +893,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1001 &491525218
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 1464298407251234856, guid: dad9d5f5bf2b1fa4a85394101abfa0f4, type: 3}
-      propertyPath: menu
-      value: 
-      objectReference: {fileID: 156923018}
-    - target: {fileID: 1464298407251234856, guid: dad9d5f5bf2b1fa4a85394101abfa0f4, type: 3}
-      propertyPath: pauseb
-      value: 
-      objectReference: {fileID: 1094653752}
-    - target: {fileID: 1464298407251234857, guid: dad9d5f5bf2b1fa4a85394101abfa0f4, type: 3}
-      propertyPath: m_RootOrder
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 1464298407251234857, guid: dad9d5f5bf2b1fa4a85394101abfa0f4, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0.6058835
-      objectReference: {fileID: 0}
-    - target: {fileID: 1464298407251234857, guid: dad9d5f5bf2b1fa4a85394101abfa0f4, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.4515333
-      objectReference: {fileID: 0}
-    - target: {fileID: 1464298407251234857, guid: dad9d5f5bf2b1fa4a85394101abfa0f4, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -70.01073
-      objectReference: {fileID: 0}
-    - target: {fileID: 1464298407251234857, guid: dad9d5f5bf2b1fa4a85394101abfa0f4, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1464298407251234857, guid: dad9d5f5bf2b1fa4a85394101abfa0f4, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1464298407251234857, guid: dad9d5f5bf2b1fa4a85394101abfa0f4, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1464298407251234857, guid: dad9d5f5bf2b1fa4a85394101abfa0f4, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1464298407251234857, guid: dad9d5f5bf2b1fa4a85394101abfa0f4, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1464298407251234857, guid: dad9d5f5bf2b1fa4a85394101abfa0f4, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1464298407251234857, guid: dad9d5f5bf2b1fa4a85394101abfa0f4, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1464298407251234863, guid: dad9d5f5bf2b1fa4a85394101abfa0f4, type: 3}
-      propertyPath: m_Name
-      value: GameControler
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: dad9d5f5bf2b1fa4a85394101abfa0f4, type: 3}
 --- !u!1 &542595396
 GameObject:
   m_ObjectHideFlags: 0
@@ -1727,7 +1651,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &874819704
 GameObject:
@@ -1896,7 +1820,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 313943931}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: GameControler, Assembly-CSharp
         m_MethodName: fechar
         m_Mode: 1
@@ -2611,7 +2535,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 313943931}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: GameControler, Assembly-CSharp
         m_MethodName: abrirmenu
         m_Mode: 1
@@ -2833,19 +2757,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4b75bc1a854ebe4ea88a6d4c575ef55, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  profile: {fileID: 21300000, guid: a39222ce17bb41f4f8beb634a39d9e55, type: 3}
-  speechTxt:
-  - Ola eu sou Tut e estou aqui pra te ensinar a jogar
-  - "Voce \xE9 esse cubo por enquanto"
-  - Para se mover pressione A ou D
-  - A camera vai acompanhar seu movimento
-  - Agora siga para a direita
-  actorName: Tut
-  playerLayer:
-    serializedVersion: 2
-    m_Bits: 8
-  radious: 0.9
-  aperteenter: {fileID: 1124993375}
+--- !u!1 &1472078392 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2876339465145134464, guid: 4b75cb8caad320a4c8464c7da252b2f1, type: 3}
+  m_PrefabInstance: {fileID: 2687660627250731985}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1472078393
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1472078392}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e82e8cf4828e764fa3ab0cee99ceb22, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueObj: {fileID: 1994691499}
+  profile: {fileID: 958933045}
+  speechText: {fileID: 472313976}
+  actorNameText: {fileID: 2002907945}
+  typingSpeed: 3
 --- !u!1 &1505439208
 GameObject:
   m_ObjectHideFlags: 0
@@ -3553,25 +3486,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 1994691499}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e4b75bc1a854ebe4ea88a6d4c575ef55, type: 3}
+  m_Script: {fileID: 11500000, guid: b09d442c3a7181942874e93e4a81af62, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  profile: {fileID: 21300000, guid: a39222ce17bb41f4f8beb634a39d9e55, type: 3}
-  speechTxt:
-  - "Parece que voce n\xE3o vai poder prosseguir se n\xE3o pular"
-  - "Nossa!! Voce n\xE3o tem nem essa Habilidade"
-  - "N\xE3o se preocupe eu vou te ensinar a conseguir novas habilidades, afinal eu
-    estou aqui pra isso"
-  - "esta vendo o bot\xE3o a esquerda abaixo do pause?"
-  - Clique nele!
-  - 'La dentro clique no circulo com o controle '
-  - E proto voce agora sabe pular
-  - "\xC9 claro isso vai gastar skils ponts ent\xE3o escolha o que upar com responsabilidade"
-  actorName: Tutor
+  profile: {fileID: 0}
+  speechTxt: []
+  actorName: TUT
   playerLayer:
-    serializedVersion: 2
-    m_Bits: 8
-  radious: 0.92
+    m_Bits: 0
+  radious: 2.61
+  dc: {fileID: 0}
+  onRadious: 0
+  dialogochamado: 0
   aperteenter: {fileID: 1124993375}
 --- !u!212 &1994691501
 SpriteRenderer:
@@ -3731,7 +3657,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 313943931}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: GameControler, Assembly-CSharp
         m_MethodName: fecharmenu
         m_Mode: 1
@@ -3814,7 +3740,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8148332309918286995, guid: 4b75cb8caad320a4c8464c7da252b2f1, type: 3}
       propertyPath: m_RootOrder
-      value: 10
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 8148332309918286995, guid: 4b75cb8caad320a4c8464c7da252b2f1, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3856,5 +3782,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 8437363129481131275, guid: 4b75cb8caad320a4c8464c7da252b2f1, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 4b75cb8caad320a4c8464c7da252b2f1, type: 3}

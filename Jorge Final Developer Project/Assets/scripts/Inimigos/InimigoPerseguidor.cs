@@ -5,12 +5,19 @@ using UnityEngine;
 public class InimigoPerseguidor : MonoBehaviour
 {
     private Transform posPlayer;
+    public LayerMask playerLayer;
+    private Animator anim;
 
     public float EniSpeed;
+    private bool EniActive;
+    public float radious;
 
     void Start()
     {
+        anim = GetComponent<Animator>();
+
         posPlayer = GameObject.FindGameObjectWithTag("Player").transform;
+        EniActive = false;
     }
 
     void Update()
@@ -18,12 +25,44 @@ public class InimigoPerseguidor : MonoBehaviour
         SeguirPlayer();
     }
 
+    private void FixedUpdate()
+    {
+        Avistado();
+    }
+
     void SeguirPlayer()
     {
-        if (posPlayer.gameObject != null)
+        if (EniActive)
         {
-            transform.position = Vector2.MoveTowards(transform.position, posPlayer.position, EniSpeed * Time.deltaTime);
+            if (posPlayer.gameObject != null)
+            {
+                transform.position = Vector2.MoveTowards(transform.position, posPlayer.position, EniSpeed * Time.deltaTime);
+            }
         }
+    }
+
+    public void Avistado()
+    {
+        Collider2D hit = Physics2D.OverlapCircle(transform.position, radious, playerLayer);
+
+        if (hit != null)
+        {
+            EniActive = true;
+        }
+        else
+        {
+            
+        }
+    }
+
+    public void Animacao()
+    {
+        
+    }
+
+    private void OnDrawGizmosSelected()
+    {
+        Gizmos.DrawWireSphere(transform.position, radious);
     }
     void OnTriggerEnter2D(Collider2D collider)
     {
@@ -46,5 +85,9 @@ public class InimigoPerseguidor : MonoBehaviour
 
                 break;
         }
+    }
+    void mudaranim(string novoestado)
+    {
+        anim.Play(novoestado);
     }
 }
