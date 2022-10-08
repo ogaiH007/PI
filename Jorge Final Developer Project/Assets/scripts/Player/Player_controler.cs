@@ -5,27 +5,14 @@ using UnityEngine;
 public class Player_controler : MonoBehaviour
 {
     public float speed;
-    public float SwTime;
     public GameObject Sword;
     
     private bool usingwepon;
-    private bool activetimer;
-    private float timerSw;
-
-    private Animator anim;
-    private Player_controler instance;
-    
-    void Start()
-    {
-        anim = GetComponent<Animator>();
-        instance = this;
-    }
+        
     void Update()
     {
         Move();  
         Wepon();
-        TimerControler();
-        //Sword.transform.position = new Vector3(0f, 0f, 0f);
     }
     void Move()
     {
@@ -56,28 +43,19 @@ public class Player_controler : MonoBehaviour
     {
         if(Input.GetButtonDown("Fire1"))
         {
-            if(!activetimer && !usingwepon)
+            if( !usingwepon)
             {
-                Sword.SetActive(true);
-                usingwepon = true;
-                activetimer = true;
+                StartCoroutine("WeponButon");
             }
         }
     }
-    void TimerControler()
+    IEnumerator WeponButon()
     {
-        if(activetimer)
-        {
-            timerSw += Time.deltaTime;
-
-            if(timerSw >= SwTime)
-            {
-                timerSw = 0f;
-                Sword.SetActive(false);
-                activetimer = false;
-                usingwepon = false;
-                Player_animations.usingsword = false;
-            }
-        }
+        Sword.SetActive(true);
+        usingwepon = true;
+        yield return new WaitForSeconds(0.45f);
+        Sword.SetActive(false);
+        usingwepon = false;
+        Player_animations.usingsword = false;
     }
 }
