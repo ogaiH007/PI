@@ -10,6 +10,8 @@ public class InimigoPerseguidor : MonoBehaviour
     public float EniSpeed;
     public float radious;
 
+    private bool Avistou;
+
     void Start()
     {
         posPlayer = GameObject.FindGameObjectWithTag("Player").transform;
@@ -19,17 +21,25 @@ public class InimigoPerseguidor : MonoBehaviour
     {
         SeguirPlayer();
     }
+    private void FixedUpdate()
+    {
+        AvistouTeste();
+    }
 
     void SeguirPlayer()
+    {
+        if (posPlayer.gameObject != null && Avistou)
+        {
+            transform.position = Vector2.MoveTowards(transform.position, posPlayer.position, EniSpeed * Time.deltaTime);
+        }        
+    }
+    void AvistouTeste()
     {
         Collider2D hit = Physics2D.OverlapCircle(transform.position, radious, playerLayer);
 
         if (hit != null)
         {
-            if (posPlayer.gameObject != null)
-            {
-                transform.position = Vector2.MoveTowards(transform.position, posPlayer.position, EniSpeed * Time.deltaTime);
-            }
+            Avistou = true;
         }
     }
     private void OnDrawGizmosSelected()
@@ -40,20 +50,10 @@ public class InimigoPerseguidor : MonoBehaviour
     {
         switch (collider.gameObject.tag)
         {
-            case "sla":
+            case "Wepon":
 
-                Debug.Log("Trst");
-
-                break;
-        }
-    }
-    void OnCollisionEnter2D(Collision2D collision)
-    {
-        switch (collision.gameObject.tag)
-        {
-            case "sla":
-
-                Debug.Log("Trst");
+                Debug.Log("Inimigo: Levei Dano!");
+                Destroy(gameObject, 0.1f);
 
                 break;
         }
