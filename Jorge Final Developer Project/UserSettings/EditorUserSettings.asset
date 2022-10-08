@@ -26,40 +26,51 @@ EditorUserSettings:
     RecentlyUsedScenePath-6:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 22424703114646680e0b0227036c7b151b181639383a2724243f1800e1e53a3dacf238e0f323
+=======
+      value: 22424703114646680e0b0227036c4b1505031d39132f23222c200e7df7ee3d2cfb
+>>>>>>> parent of b770346 (log Update)
       flags: 0
     RecentlyUsedScenePath-7:
+      value: 22424703114646680e0b0227036c7b151b181639383a2724243f1800e1e53a3dacf238e0f323
+      flags: 0
+    RecentlyUsedScenePath-8:
+<<<<<<< HEAD
+      value: 22424703114646680e0b0227036c6c0719051c15382d3524283a5326ece92021
+=======
+      value: 22424703114646680e0b0227036c7c1c13160a6a7d66333e243d04
+      flags: 0
+    RecentlyUsedScenePath-7:
+      value: 22424703114646680e0b0227036c4b1505031d39132f23222c200e7df7ee3d2cfb
+      flags: 0
+    RecentlyUsedScenePath-8:
+      value: 22424703114646680e0b0227036c6c0719051c15382d3524283a5326ece92021
+      flags: 0
+    RecentlyUsedScenePath-9:
+      value: 22424703114646680e0b0227036c7b151b181639383a2724243f1800e1e53a3dacf238e0f323
+>>>>>>> parent of fa67078 (sla)
+      flags: 0
+    RecentlyUsedScenePath-9:
+      value: 22424703114646680e0b0227036c4b1505031d39132f23222c200e7df7ee3d2cfb
+=======
+      value: 22424703114646680e0b0227036c7c1c13160a6a7d66333e243d04
+      flags: 0
+    RecentlyUsedScenePath-7:
+      value: 22424703114646680e0b0227036c4b1505031d39132f23222c200e7df7ee3d2cfb
+      flags: 0
+    RecentlyUsedScenePath-8:
+      value: 22424703114646680e0b0227036c6c0719051c15382d3524283a5326ece92021
+      flags: 0
+    RecentlyUsedScenePath-9:
+      value: 22424703114646680e0b0227036c7b151b181639383a2724243f1800e1e53a3dacf238e0f323
+>>>>>>> parent of fa67078 (sla)
+=======
       value: 22424703114646680e0b0227036c761d06180a3e292c66032e2c1336f1af3239f1e209fdf22e302e3003e36c55701431fb1e10
       flags: 0
-    RecentlyUsedScenePath-8:
-      value: 22424703114646680e0b0227036c6c0719051c15382d3524283a5326ece92021
-=======
-      value: 22424703114646680e0b0227036c7c1c13160a6a7d66333e243d04
-      flags: 0
-    RecentlyUsedScenePath-7:
-      value: 22424703114646680e0b0227036c4b1505031d39132f23222c200e7df7ee3d2cfb
-      flags: 0
-    RecentlyUsedScenePath-8:
-      value: 22424703114646680e0b0227036c6c0719051c15382d3524283a5326ece92021
-      flags: 0
     RecentlyUsedScenePath-9:
-      value: 22424703114646680e0b0227036c7b151b181639383a2724243f1800e1e53a3dacf238e0f323
->>>>>>> parent of fa67078 (sla)
-      flags: 0
-    RecentlyUsedScenePath-9:
-      value: 22424703114646680e0b0227036c4b1505031d39132f23222c200e7df7ee3d2cfb
-=======
-      value: 22424703114646680e0b0227036c7c1c13160a6a7d66333e243d04
-      flags: 0
-    RecentlyUsedScenePath-7:
-      value: 22424703114646680e0b0227036c4b1505031d39132f23222c200e7df7ee3d2cfb
-      flags: 0
-    RecentlyUsedScenePath-8:
       value: 22424703114646680e0b0227036c6c0719051c15382d3524283a5326ece92021
-      flags: 0
-    RecentlyUsedScenePath-9:
-      value: 22424703114646680e0b0227036c7b151b181639383a2724243f1800e1e53a3dacf238e0f323
->>>>>>> parent of fa67078 (sla)
+>>>>>>> parent of b770346 (log Update)
       flags: 0
     vcSharedLogLevel:
       value: 0d5e400f0650
