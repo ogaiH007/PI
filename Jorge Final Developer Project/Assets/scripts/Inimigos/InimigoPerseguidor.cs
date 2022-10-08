@@ -16,7 +16,6 @@ public class InimigoPerseguidor : MonoBehaviour
     {
         posPlayer = GameObject.FindGameObjectWithTag("Player").transform;
     }
-
     void Update()
     {
         SeguirPlayer();

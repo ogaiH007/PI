@@ -4343,6 +4343,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 7884646903579477703, guid: 3164c895cb8e1dd418d6723ec1cc8802, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 30.34
+      objectReference: {fileID: 0}
+    - target: {fileID: 7884646903579477703, guid: 3164c895cb8e1dd418d6723ec1cc8802, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.40999985
+      objectReference: {fileID: 0}
+    - target: {fileID: 7884646904335612795, guid: 3164c895cb8e1dd418d6723ec1cc8802, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 30.34
+      objectReference: {fileID: 0}
+    - target: {fileID: 7884646904335612795, guid: 3164c895cb8e1dd418d6723ec1cc8802, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.40999985
+      objectReference: {fileID: 0}
     - target: {fileID: 7884646904647775240, guid: 3164c895cb8e1dd418d6723ec1cc8802, type: 3}
       propertyPath: m_Name
       value: Itens Exenciais nas cenas
@@ -4390,6 +4406,14 @@ PrefabInstance:
     - target: {fileID: 7884646904647775247, guid: 3164c895cb8e1dd418d6723ec1cc8802, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7884646905333919300, guid: 3164c895cb8e1dd418d6723ec1cc8802, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 30.34
+      objectReference: {fileID: 0}
+    - target: {fileID: 7884646905333919300, guid: 3164c895cb8e1dd418d6723ec1cc8802, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.41
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3164c895cb8e1dd418d6723ec1cc8802, type: 3}
