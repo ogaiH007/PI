@@ -5,8 +5,10 @@ using UnityEngine;
 public class InimigoPerseguidor : MonoBehaviour
 {
     private Transform posPlayer;
+    public LayerMask playerLayer;
 
     public float EniSpeed;
+    public float radious;
 
     void Start()
     {
@@ -20,10 +22,19 @@ public class InimigoPerseguidor : MonoBehaviour
 
     void SeguirPlayer()
     {
-        if (posPlayer.gameObject != null)
+        Collider2D hit = Physics2D.OverlapCircle(transform.position, radious, playerLayer);
+
+        if (hit != null)
         {
-            transform.position = Vector2.MoveTowards(transform.position, posPlayer.position, EniSpeed * Time.deltaTime);
+            if (posPlayer.gameObject != null)
+            {
+                transform.position = Vector2.MoveTowards(transform.position, posPlayer.position, EniSpeed * Time.deltaTime);
+            }
         }
+    }
+    private void OnDrawGizmosSelected()
+    {
+        Gizmos.DrawWireSphere(transform.position, radious);
     }
     void OnTriggerEnter2D(Collider2D collider)
     {
