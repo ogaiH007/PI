@@ -139,3 +139,886 @@ Received Import Request.
 Start importing Assets/scripts/DemonstrationScript.cs using Guid(cf3eab6333c37264aa23c1f3f7acadde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7801ef94b620ca2b166cd8c24597acb0') in 0.457897 seconds 
   Import took 0.480749 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 373.062110 seconds.
+  path: Assets/Sprites da NET/gfx/Tiles Overworld/Overworld_29.asset
+  artifactKey: Guid(e515c62680238824383d29df679c8776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites da NET/gfx/Tiles Overworld/Overworld_29.asset using Guid(e515c62680238824383d29df679c8776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da548a8bb397a203b280663f04bd3547') in 0.613401 seconds 
+  Import took 0.636532 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000974 seconds.
+  path: Assets/Sprites da NET/gfx/Tiles Overworld/Overworld_31.asset
+  artifactKey: Guid(21ca290896eba9d4faaad2dccd054a08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites da NET/gfx/Tiles Overworld/Overworld_31.asset using Guid(21ca290896eba9d4faaad2dccd054a08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4d311350a4ca36c0df9eaa0a2f21452') in 0.091477 seconds 
+  Import took 0.113962 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000941 seconds.
+  path: Assets/Sprites da NET/gfx/Tiles Overworld/Overworld_30.asset
+  artifactKey: Guid(7506214c49ce0a642b9f03c83e91e238) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites da NET/gfx/Tiles Overworld/Overworld_30.asset using Guid(7506214c49ce0a642b9f03c83e91e238) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '018f80eb206d7d19fb208e56529f7b17') in 0.089598 seconds 
+  Import took 0.112096 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001031 seconds.
+  path: Assets/Sprites da NET/gfx/Tiles Overworld/Overworld_32.asset
+  artifactKey: Guid(e7fc6ba0998328c439ea13a111733242) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites da NET/gfx/Tiles Overworld/Overworld_32.asset using Guid(e7fc6ba0998328c439ea13a111733242) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a79f7dc8988dc385d2438add656123a') in 0.113636 seconds 
+  Import took 0.137167 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013035 seconds.
+  path: Assets/Sprites da NET/gfx/Tiles Overworld/Overworld_33.asset
+  artifactKey: Guid(3f30a775278fcc94a8d96eef8be2b84d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites da NET/gfx/Tiles Overworld/Overworld_33.asset using Guid(3f30a775278fcc94a8d96eef8be2b84d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edcf5c9f3be36dd20309a68316352443') in 0.069161 seconds 
+  Import took 0.088878 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001253 seconds.
+  path: Assets/Sprites da NET/gfx/Tiles Overworld/Overworld_56.asset
+  artifactKey: Guid(7e0702502ca8f1f43b5928eefc683734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites da NET/gfx/Tiles Overworld/Overworld_56.asset using Guid(7e0702502ca8f1f43b5928eefc683734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a413018e317ebc9fc7aa2889fc5c706') in 0.083914 seconds 
+  Import took 0.103082 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001074 seconds.
+  path: Assets/Sprites da NET/gfx/Tiles Overworld/Overworld_39.asset
+  artifactKey: Guid(7c935363d8ea1c9438fb104c7c743772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites da NET/gfx/Tiles Overworld/Overworld_39.asset using Guid(7c935363d8ea1c9438fb104c7c743772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2692406516f1a732ffb4d3d589600ff') in 0.090996 seconds 
+  Import took 0.111572 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000913 seconds.
+  path: Assets/Sprites da NET/gfx/Tiles Overworld/Overworld_40.asset
+  artifactKey: Guid(5e3e33d6733c9b14793601092d45db06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites da NET/gfx/Tiles Overworld/Overworld_40.asset using Guid(5e3e33d6733c9b14793601092d45db06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21ee1b1177434fa52c7a11671c488982') in 0.098545 seconds 
+  Import took 0.120725 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000929 seconds.
+  path: Assets/Sprites da NET/gfx/Tiles Overworld/Overworld_36.asset
+  artifactKey: Guid(d66b870e47af827429faa471433a06cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites da NET/gfx/Tiles Overworld/Overworld_36.asset using Guid(d66b870e47af827429faa471433a06cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d2006c74b66bd63f004ba1c4ae8b01b') in 0.089577 seconds 
+  Import took 0.109161 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000941 seconds.
+  path: Assets/Sprites da NET/gfx/Tiles Overworld/Overworld_47.asset
+  artifactKey: Guid(639600181c45ff84cb008dd13f7227ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites da NET/gfx/Tiles Overworld/Overworld_47.asset using Guid(639600181c45ff84cb008dd13f7227ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c58c450e7779d4c56bcc1307e59f50b') in 0.090953 seconds 
+  Import took 0.110597 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000921 seconds.
+  path: Assets/Sprites da NET/gfx/Tiles Overworld/Overworld_71.asset
+  artifactKey: Guid(f365f8ea3478934409960c9f354cbbb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites da NET/gfx/Tiles Overworld/Overworld_71.asset using Guid(f365f8ea3478934409960c9f354cbbb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c620c5585a38d0b63f4e566828466d07') in 0.084496 seconds 
+  Import took 0.105278 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001480 seconds.
+  path: Assets/Sprites da NET/gfx/Tiles Overworld/Overworld_82.asset
+  artifactKey: Guid(6d87e696cc9d67244a23e6e2f8d4cc35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites da NET/gfx/Tiles Overworld/Overworld_82.asset using Guid(6d87e696cc9d67244a23e6e2f8d4cc35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4835f62d68c7aa1a315ea39439a90af3') in 0.097751 seconds 
+  Import took 0.120266 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000912 seconds.
+  path: Assets/Sprites da NET/gfx/Tiles Overworld/Overworld_84.asset
+  artifactKey: Guid(616f1eae3b68e724e9170810b96a5105) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites da NET/gfx/Tiles Overworld/Overworld_84.asset using Guid(616f1eae3b68e724e9170810b96a5105) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '343df878f54302d8b965a7baadd6019d') in 0.101646 seconds 
+  Import took 0.121073 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000757 seconds.
+  path: Assets/Sprites da NET/gfx/Tiles Overworld/Overworld_70.asset
+  artifactKey: Guid(c3fa9d56cd1662c4face767ab540cffa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites da NET/gfx/Tiles Overworld/Overworld_70.asset using Guid(c3fa9d56cd1662c4face767ab540cffa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fbfa30de5a4773c8cccad041acce326') in 0.086295 seconds 
+  Import took 0.108719 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000877 seconds.
+  path: Assets/Sprites da NET/gfx/Tiles Overworld/Overworld_53.asset
+  artifactKey: Guid(52239ec053890ce418e5ade23a190405) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites da NET/gfx/Tiles Overworld/Overworld_53.asset using Guid(52239ec053890ce418e5ade23a190405) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35fe5fe07a83d017f68e44f96ad969c8') in 0.102338 seconds 
+  Import took 0.123291 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000909 seconds.
+  path: Assets/Sprites da NET/gfx/Tiles Overworld/Overworld_95.asset
+  artifactKey: Guid(5cf70533b6044ae4085258b2b097caf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites da NET/gfx/Tiles Overworld/Overworld_95.asset using Guid(5cf70533b6044ae4085258b2b097caf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '567d16ed757de87261bb6c9217738a09') in 0.083725 seconds 
+  Import took 0.105409 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001569 seconds.
+  path: Assets/Sprites da NET/gfx/Tiles Overworld/Overworld_34.asset
+  artifactKey: Guid(1ac28d49053aec64fb2a5030ae4996fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites da NET/gfx/Tiles Overworld/Overworld_34.asset using Guid(1ac28d49053aec64fb2a5030ae4996fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0217b2bc055156ede640ad428f66d3a') in 0.099372 seconds 
+  Import took 0.122566 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001094 seconds.
+  path: Assets/Sprites da NET/gfx/Tiles Overworld/Overworld_76.asset
+  artifactKey: Guid(80cbff4ae23163144b4bb89cd0845fa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites da NET/gfx/Tiles Overworld/Overworld_76.asset using Guid(80cbff4ae23163144b4bb89cd0845fa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b8b1f6da24b8f645129ef3eb31cccca') in 0.090947 seconds 
+  Import took 0.112787 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001283 seconds.
+  path: Assets/Sprites da NET/gfx/Tiles Overworld/Overworld_91.asset
+  artifactKey: Guid(694a763d9cc36f243b811f88eba95810) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites da NET/gfx/Tiles Overworld/Overworld_91.asset using Guid(694a763d9cc36f243b811f88eba95810) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec8cecccee2b77d11b05632f4eb97e69') in 0.083222 seconds 
+  Import took 0.106225 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001091 seconds.
+  path: Assets/Sprites da NET/gfx/Tiles Overworld/Overworld_68.asset
+  artifactKey: Guid(ac369e2a5bab5a243b7f36c28930e1bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites da NET/gfx/Tiles Overworld/Overworld_68.asset using Guid(ac369e2a5bab5a243b7f36c28930e1bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23bbb8ffa63e3a60c3fdc330b50df55d') in 0.106896 seconds 
+  Import took 0.127976 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000905 seconds.
+  path: Assets/Sprites da NET/gfx/Tiles Overworld/Overworld_55.asset
+  artifactKey: Guid(a6440c20e73595841bdae0e2294fb39c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites da NET/gfx/Tiles Overworld/Overworld_55.asset using Guid(a6440c20e73595841bdae0e2294fb39c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab55935d64a769ff5eac512c1487ff12') in 0.088514 seconds 
+  Import took 0.109906 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001038 seconds.
+  path: Assets/Sprites da NET/gfx/Tiles Overworld/Overworld_75.asset
+  artifactKey: Guid(94cbb2d43216ea84d8df60fac0610e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites da NET/gfx/Tiles Overworld/Overworld_75.asset using Guid(94cbb2d43216ea84d8df60fac0610e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f796410e8f1d407c7e0cca79980cfde4') in 0.092021 seconds 
+  Import took 0.115192 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000881 seconds.
+  path: Assets/Sprites da NET/gfx/Tiles Overworld/Overworld_46.asset
+  artifactKey: Guid(da954d4af107a2d4f87acefcae150883) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites da NET/gfx/Tiles Overworld/Overworld_46.asset using Guid(da954d4af107a2d4f87acefcae150883) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fc986d52c5363e93c6391daae5ef71b') in 0.093638 seconds 
+  Import took 0.117484 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000998 seconds.
+  path: Assets/Sprites da NET/gfx/Tiles Overworld/Overworld_102.asset
+  artifactKey: Guid(c975ed4c155660446925992d8f46fd6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites da NET/gfx/Tiles Overworld/Overworld_102.asset using Guid(c975ed4c155660446925992d8f46fd6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c24cb3190cd1b95191345c16c9a412e') in 0.085451 seconds 
+  Import took 0.106453 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000953 seconds.
+  path: Assets/Sprites da NET/gfx/Tiles Overworld/Overworld_101.asset
+  artifactKey: Guid(a2c0f9afd3bc0054cac88fc63c08f9b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites da NET/gfx/Tiles Overworld/Overworld_101.asset using Guid(a2c0f9afd3bc0054cac88fc63c08f9b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37ea2d07f85bbfe1a8b29608b1f3f75a') in 0.111646 seconds 
+  Import took 0.135700 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000895 seconds.
+  path: Assets/Sprites da NET/gfx/Tiles Overworld/Overworld_87.asset
+  artifactKey: Guid(f6e245837f2a46c468562745be1fc268) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites da NET/gfx/Tiles Overworld/Overworld_87.asset using Guid(f6e245837f2a46c468562745be1fc268) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7682e61d69be65304a68af12a2510e90') in 0.097971 seconds 
+  Import took 0.121319 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001035 seconds.
+  path: Assets/Sprites da NET/gfx/Tiles Overworld/Overworld_48.asset
+  artifactKey: Guid(332af7529306e7249a821cf0e9fe7c33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites da NET/gfx/Tiles Overworld/Overworld_48.asset using Guid(332af7529306e7249a821cf0e9fe7c33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '631c3bf1d342831bdb4aeca4b75d61e9') in 0.087470 seconds 
+  Import took 0.111145 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000883 seconds.
+  path: Assets/Sprites da NET/gfx/Tiles Overworld/Overworld_44.asset
+  artifactKey: Guid(e5034b02c9dfa144c9961e47b656ea16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites da NET/gfx/Tiles Overworld/Overworld_44.asset using Guid(e5034b02c9dfa144c9961e47b656ea16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9b2ad7021502c6502336bce43c55087') in 0.081355 seconds 
+  Import took 0.105518 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000865 seconds.
+  path: Assets/Sprites da NET/gfx/Tiles Overworld/Overworld_50.asset
+  artifactKey: Guid(47ca5db8cbd6b41418cb3ac34a951ee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites da NET/gfx/Tiles Overworld/Overworld_50.asset using Guid(47ca5db8cbd6b41418cb3ac34a951ee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13641e9103f0f3f971b6d587caf09ba0') in 0.072500 seconds 
+  Import took 0.090142 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000951 seconds.
+  path: Assets/Sprites da NET/gfx/Tiles Overworld/Overworld_63.asset
+  artifactKey: Guid(3b0a595cf874d1b4794d878585bad3cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites da NET/gfx/Tiles Overworld/Overworld_63.asset using Guid(3b0a595cf874d1b4794d878585bad3cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '192926cd47a8cb1933144d51436716e5') in 0.088817 seconds 
+  Import took 0.108153 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000798 seconds.
+  path: Assets/Sprites da NET/gfx/Tiles Overworld/Overworld_80.asset
+  artifactKey: Guid(77fc07f825d2e7144a49321fc7da844e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites da NET/gfx/Tiles Overworld/Overworld_80.asset using Guid(77fc07f825d2e7144a49321fc7da844e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c43f7a85c89ef2f95c8722a99a070f5') in 0.090742 seconds 
+  Import took 0.109900 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001528 seconds.
+  path: Assets/Sprites da NET/gfx/Tiles Overworld/Overworld_59.asset
+  artifactKey: Guid(5a737a17116b06f4185aab3a47a2a4cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites da NET/gfx/Tiles Overworld/Overworld_59.asset using Guid(5a737a17116b06f4185aab3a47a2a4cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '817915bab42f73f8a06c72ea1939056c') in 0.094240 seconds 
+  Import took 0.113578 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000881 seconds.
+  path: Assets/Sprites da NET/gfx/Tiles Overworld/Overworld_38.asset
+  artifactKey: Guid(b6c1203d1f2bcd34a8ec41381386943d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites da NET/gfx/Tiles Overworld/Overworld_38.asset using Guid(b6c1203d1f2bcd34a8ec41381386943d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5837e5725af6559bd4fea9ac347ed98a') in 0.094937 seconds 
+  Import took 0.113515 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000971 seconds.
+  path: Assets/Sprites da NET/gfx/Tiles Overworld/Overworld_60.asset
+  artifactKey: Guid(44c1858386acb054f87d02f749125109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites da NET/gfx/Tiles Overworld/Overworld_60.asset using Guid(44c1858386acb054f87d02f749125109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '258146e06992663765262ae12d0b8f9f') in 0.087475 seconds 
+  Import took 0.107439 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000871 seconds.
+  path: Assets/Sprites da NET/gfx/Tiles Overworld/Overworld_61.asset
+  artifactKey: Guid(b17848c1aa1af854c9970e38de84c356) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites da NET/gfx/Tiles Overworld/Overworld_61.asset using Guid(b17848c1aa1af854c9970e38de84c356) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30bfc90025781ce5da6cd5d0633dc16d') in 0.088232 seconds 
+  Import took 0.108221 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000829 seconds.
+  path: Assets/Sprites da NET/gfx/Tiles Overworld/Overworld_52.asset
+  artifactKey: Guid(01614ce92d7995640b098f9d2750fbac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites da NET/gfx/Tiles Overworld/Overworld_52.asset using Guid(01614ce92d7995640b098f9d2750fbac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b776271ba9e2acdbf153d42d1e8c3d3') in 0.125301 seconds 
+  Import took 0.146370 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001347 seconds.
+  path: Assets/Sprites da NET/gfx/Tiles Overworld/Overworld_89.asset
+  artifactKey: Guid(cd1eae7ff5317ec4dbaab249f4b85256) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites da NET/gfx/Tiles Overworld/Overworld_89.asset using Guid(cd1eae7ff5317ec4dbaab249f4b85256) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd63e270b547e2a605b20efcd0113860d') in 0.082346 seconds 
+  Import took 0.102700 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000693 seconds.
+  path: Assets/Sprites da NET/gfx/Tiles Overworld/Overworld_37.asset
+  artifactKey: Guid(e122511b4d55d5e45abef43e725b794c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites da NET/gfx/Tiles Overworld/Overworld_37.asset using Guid(e122511b4d55d5e45abef43e725b794c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f63854088b00b2534ea023c485d7ad8') in 0.092997 seconds 
+  Import took 0.112414 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000989 seconds.
+  path: Assets/Sprites da NET/gfx/Tiles Overworld/Overworld_81.asset
+  artifactKey: Guid(ed3c8bd7e6637cc4ebefc425b27f4282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites da NET/gfx/Tiles Overworld/Overworld_81.asset using Guid(ed3c8bd7e6637cc4ebefc425b27f4282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7def42c2bf69ce44dc61088f6f91b5cb') in 0.091814 seconds 
+  Import took 0.109775 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000949 seconds.
+  path: Assets/Sprites da NET/gfx/Tiles Overworld/Overworld_99.asset
+  artifactKey: Guid(e820728df45fd8e4e9ceeca8c52aa33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites da NET/gfx/Tiles Overworld/Overworld_99.asset using Guid(e820728df45fd8e4e9ceeca8c52aa33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f05bcc291a7e627b6f78580b201fef7') in 0.092692 seconds 
+  Import took 0.111125 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000939 seconds.
+  path: Assets/Sprites da NET/gfx/Tiles Overworld/Overworld_88.asset
+  artifactKey: Guid(f7686a5014681b44fa70e6d1b109f854) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites da NET/gfx/Tiles Overworld/Overworld_88.asset using Guid(f7686a5014681b44fa70e6d1b109f854) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ea81c47c57e98fc82c8fa2ec933ddbb') in 0.084447 seconds 
+  Import took 0.101358 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000925 seconds.
+  path: Assets/Sprites da NET/gfx/Tiles Overworld/Overworld_51.asset
+  artifactKey: Guid(078e594c201acf94e86b701a765172b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites da NET/gfx/Tiles Overworld/Overworld_51.asset using Guid(078e594c201acf94e86b701a765172b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c168041ae9f60e2fdd61d114322c7ed') in 0.083239 seconds 
+  Import took 0.101045 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000499 seconds.
+  path: Assets/Sprites da NET/gfx/Tiles Overworld/Overworld_74.asset
+  artifactKey: Guid(362fa1b4fcd6c9e4485b9417941098d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites da NET/gfx/Tiles Overworld/Overworld_74.asset using Guid(362fa1b4fcd6c9e4485b9417941098d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ba8b3e87a8ef31fd488ab45a61f8ccc') in 0.081460 seconds 
+  Import took 0.101593 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000975 seconds.
+  path: Assets/Sprites da NET/gfx/Tiles Overworld/Overworld_92.asset
+  artifactKey: Guid(405f87e32ebebf44dbd9e7887dfa4e73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites da NET/gfx/Tiles Overworld/Overworld_92.asset using Guid(405f87e32ebebf44dbd9e7887dfa4e73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6228de25d90bbed69493d8b37bbbd4a8') in 0.079006 seconds 
+  Import took 0.099328 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001063 seconds.
+  path: Assets/Sprites da NET/gfx/Tiles Overworld/Overworld_97.asset
+  artifactKey: Guid(117fb2acb2a0ad244934a1edb38a26b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites da NET/gfx/Tiles Overworld/Overworld_97.asset using Guid(117fb2acb2a0ad244934a1edb38a26b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a0713e9aa730a7622aa66dffc861631') in 0.091742 seconds 
+  Import took 0.117636 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001012 seconds.
+  path: Assets/Sprites da NET/gfx/Tiles Overworld/Overworld_93.asset
+  artifactKey: Guid(b575bb6f2df7c0647ad7c3526ed529e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites da NET/gfx/Tiles Overworld/Overworld_93.asset using Guid(b575bb6f2df7c0647ad7c3526ed529e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e67aab39593d1eacab96f0500bc7f67c') in 0.084844 seconds 
+  Import took 0.108270 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001054 seconds.
+  path: Assets/Sprites da NET/gfx/Tiles Overworld/Overworld_94.asset
+  artifactKey: Guid(be6ce26682c4d4342bb6b98f191ff033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites da NET/gfx/Tiles Overworld/Overworld_94.asset using Guid(be6ce26682c4d4342bb6b98f191ff033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91523cdb1bee97a762374145888cf2e4') in 0.078894 seconds 
+  Import took 0.098862 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000923 seconds.
+  path: Assets/Sprites da NET/gfx/Tiles Overworld/Overworld_64.asset
+  artifactKey: Guid(802e81bb4b19ba14b84bb3215e370b2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites da NET/gfx/Tiles Overworld/Overworld_64.asset using Guid(802e81bb4b19ba14b84bb3215e370b2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71d235026ba26bcb6137c9b2e67673fa') in 0.089678 seconds 
+  Import took 0.113484 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001569 seconds.
+  path: Assets/Sprites da NET/gfx/Tiles Overworld/Overworld_65.asset
+  artifactKey: Guid(6f3586882ce303240b14cded3c4d3c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites da NET/gfx/Tiles Overworld/Overworld_65.asset using Guid(6f3586882ce303240b14cded3c4d3c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '051ba35380328d8d0e36a37340f95d46') in 0.090405 seconds 
+  Import took 0.109723 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000746 seconds.
+  path: Assets/Sprites da NET/gfx/Tiles Overworld/Overworld_79.asset
+  artifactKey: Guid(87053f0342fb1e84cac4a89d51e7a8ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites da NET/gfx/Tiles Overworld/Overworld_79.asset using Guid(87053f0342fb1e84cac4a89d51e7a8ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7c4127d941e8f095a93ba1e9e4af33c') in 0.087078 seconds 
+  Import took 0.109053 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000839 seconds.
+  path: Assets/Sprites da NET/gfx/Tiles Overworld/Overworld_57.asset
+  artifactKey: Guid(274f2887b634d4b47a9c41a48b92a29d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites da NET/gfx/Tiles Overworld/Overworld_57.asset using Guid(274f2887b634d4b47a9c41a48b92a29d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a12664d9270d7e5196a2b94d06c7c71') in 0.086042 seconds 
+  Import took 0.105537 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000722 seconds.
+  path: Assets/Sprites da NET/gfx/Tiles Overworld/Overworld_86.asset
+  artifactKey: Guid(abf5e9790c3d33041981e84d287fda8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites da NET/gfx/Tiles Overworld/Overworld_86.asset using Guid(abf5e9790c3d33041981e84d287fda8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0b4cba656115e8ce3a2228a647194c5') in 0.084889 seconds 
+  Import took 0.104610 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000734 seconds.
+  path: Assets/Sprites da NET/gfx/Tiles Overworld/Overworld_45.asset
+  artifactKey: Guid(59d88ebf17558df4295cdb37524f4a22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites da NET/gfx/Tiles Overworld/Overworld_45.asset using Guid(59d88ebf17558df4295cdb37524f4a22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce33b0c15323e453b61334e861004645') in 0.088685 seconds 
+  Import took 0.107268 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000695 seconds.
+  path: Assets/Sprites da NET/gfx/Tiles Overworld/Overworld_98.asset
+  artifactKey: Guid(b257c46198694ee4e98c0da8afdb4215) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites da NET/gfx/Tiles Overworld/Overworld_98.asset using Guid(b257c46198694ee4e98c0da8afdb4215) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a370d16641767b6c4fe89a5ff59410a0') in 0.105592 seconds 
+  Import took 0.122788 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000870 seconds.
+  path: Assets/Sprites da NET/gfx/Tiles Overworld/Overworld_69.asset
+  artifactKey: Guid(04f8dd39a32e11040934089ecd3b80bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites da NET/gfx/Tiles Overworld/Overworld_69.asset using Guid(04f8dd39a32e11040934089ecd3b80bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ba1a23ac5f99403d33902b1bd47cbf2') in 0.094512 seconds 
+  Import took 0.112283 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000876 seconds.
+  path: Assets/Sprites da NET/gfx/Tiles Overworld/Overworld_96.asset
+  artifactKey: Guid(49ce318cba479c749aab9a30f8be3292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites da NET/gfx/Tiles Overworld/Overworld_96.asset using Guid(49ce318cba479c749aab9a30f8be3292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe6de504b7bea65ab0c742b91d8c6773') in 0.095790 seconds 
+  Import took 0.115325 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001793 seconds.
+  path: Assets/Sprites da NET/gfx/Tiles Overworld/Overworld_103.asset
+  artifactKey: Guid(07632428b1e54604a968f27ce6b9ecc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites da NET/gfx/Tiles Overworld/Overworld_103.asset using Guid(07632428b1e54604a968f27ce6b9ecc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd30197ee3860d51b56b3e5fec97b5a7a') in 0.099503 seconds 
+  Import took 0.119830 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000914 seconds.
+  path: Assets/Sprites da NET/gfx/Tiles Overworld/Overworld_66.asset
+  artifactKey: Guid(3adf1fd557e1bb5469a9bced58d36ddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites da NET/gfx/Tiles Overworld/Overworld_66.asset using Guid(3adf1fd557e1bb5469a9bced58d36ddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14e39be3cb42fb2c0d8a63e04ddf21a0') in 0.100625 seconds 
+  Import took 0.122014 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001583 seconds.
+  path: Assets/Sprites da NET/gfx/Tiles Overworld/Overworld_49.asset
+  artifactKey: Guid(7c677ab32a79e5340a89834a53e8a5b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites da NET/gfx/Tiles Overworld/Overworld_49.asset using Guid(7c677ab32a79e5340a89834a53e8a5b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '348ac9d06b364c05613ada3b439becd7') in 0.092274 seconds 
+  Import took 0.110872 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000915 seconds.
+  path: Assets/Sprites da NET/gfx/Tiles Overworld/Overworld_67.asset
+  artifactKey: Guid(117a13966df51aa47a6ea643df2ca9f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites da NET/gfx/Tiles Overworld/Overworld_67.asset using Guid(117a13966df51aa47a6ea643df2ca9f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '283125b5be499e19c3e8b8ed2531fcf5') in 0.102079 seconds 
+  Import took 0.123801 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000897 seconds.
+  path: Assets/Sprites da NET/gfx/Tiles Overworld/Overworld_43.asset
+  artifactKey: Guid(6e0283fd62f42964283265c8fc321404) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites da NET/gfx/Tiles Overworld/Overworld_43.asset using Guid(6e0283fd62f42964283265c8fc321404) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d7a521ba99c64d39317d4d79aaba878') in 0.102610 seconds 
+  Import took 0.123855 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001240 seconds.
+  path: Assets/Sprites da NET/gfx/Tiles Overworld/Overworld_90.asset
+  artifactKey: Guid(7e91aaf6c8939ec4f90b156002467255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites da NET/gfx/Tiles Overworld/Overworld_90.asset using Guid(7e91aaf6c8939ec4f90b156002467255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f59f3ee0ac28375dad2be4e1f1281bb') in 0.101044 seconds 
+  Import took 0.121305 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000985 seconds.
+  path: Assets/Sprites da NET/gfx/Tiles Overworld/Overworld_73.asset
+  artifactKey: Guid(181b258f6b866f34fa07ec2db56bd816) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites da NET/gfx/Tiles Overworld/Overworld_73.asset using Guid(181b258f6b866f34fa07ec2db56bd816) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a2cfda5b0e7b3f7874dec701d8f7ea3') in 0.113076 seconds 
+  Import took 0.131500 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000974 seconds.
+  path: Assets/Sprites da NET/gfx/Tiles Overworld/Overworld_83.asset
+  artifactKey: Guid(82516999f1df5424897016c50d802af0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites da NET/gfx/Tiles Overworld/Overworld_83.asset using Guid(82516999f1df5424897016c50d802af0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adb2c8386b18ba1de838af6354d2ccd4') in 0.085446 seconds 
+  Import took 0.114617 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000885 seconds.
+  path: Assets/Sprites da NET/gfx/Tiles Overworld/Overworld_72.asset
+  artifactKey: Guid(074c1858e66a6c7428463115936360c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites da NET/gfx/Tiles Overworld/Overworld_72.asset using Guid(074c1858e66a6c7428463115936360c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '415e89f3d3093a0f94b23f9de4e5ded8') in 0.079118 seconds 
+  Import took 0.099776 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001499 seconds.
+  path: Assets/Sprites da NET/gfx/Tiles Overworld/Overworld_42.asset
+  artifactKey: Guid(c962bc54b75d33447a11b10e0ab75089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites da NET/gfx/Tiles Overworld/Overworld_42.asset using Guid(c962bc54b75d33447a11b10e0ab75089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7a656cc1808617ffc3ff1e3439f277d') in 0.090807 seconds 
+  Import took 0.109011 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001430 seconds.
+  path: Assets/Sprites da NET/gfx/Tiles Overworld/Overworld_77.asset
+  artifactKey: Guid(849e665a1d67a4e4e949b08cf67dc868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites da NET/gfx/Tiles Overworld/Overworld_77.asset using Guid(849e665a1d67a4e4e949b08cf67dc868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e828da53b73b130c70069bbf045e5dda') in 0.091523 seconds 
+  Import took 0.109626 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000855 seconds.
+  path: Assets/Sprites da NET/gfx/Tiles Overworld/Overworld_100.asset
+  artifactKey: Guid(7a3e1a8c7abff2c4e9853fbbcf05c094) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites da NET/gfx/Tiles Overworld/Overworld_100.asset using Guid(7a3e1a8c7abff2c4e9853fbbcf05c094) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0afaefa4626dea28d1d6916d877eb0a1') in 0.080767 seconds 
+  Import took 0.101961 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001081 seconds.
+  path: Assets/Sprites da NET/gfx/Tiles Overworld/Overworld_85.asset
+  artifactKey: Guid(026761d25b1d2fc40a144854dc544acb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites da NET/gfx/Tiles Overworld/Overworld_85.asset using Guid(026761d25b1d2fc40a144854dc544acb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef81199ceadcdea30513d24bce68b84c') in 0.092870 seconds 
+  Import took 0.109927 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000899 seconds.
+  path: Assets/Sprites da NET/gfx/Tiles Overworld/Overworld_62.asset
+  artifactKey: Guid(4966f0bfef4be3541aa82aba4448ab75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites da NET/gfx/Tiles Overworld/Overworld_62.asset using Guid(4966f0bfef4be3541aa82aba4448ab75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b263fa991a46d8e266c26831241edbc') in 0.086681 seconds 
+  Import took 0.105718 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000996 seconds.
+  path: Assets/Sprites da NET/gfx/Tiles Overworld/Overworld_35.asset
+  artifactKey: Guid(9109ae2035e3f904aa87f0611f6a8ac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites da NET/gfx/Tiles Overworld/Overworld_35.asset using Guid(9109ae2035e3f904aa87f0611f6a8ac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46e4264801055561fef6668a83659a27') in 0.081000 seconds 
+  Import took 0.102739 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000883 seconds.
+  path: Assets/Sprites da NET/gfx/Tiles Overworld/Overworld_104.asset
+  artifactKey: Guid(09c7f892695c9c04f89359f47b2843c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites da NET/gfx/Tiles Overworld/Overworld_104.asset using Guid(09c7f892695c9c04f89359f47b2843c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '167b8bda97c0da32c59a49d46d978d8e') in 0.095107 seconds 
+  Import took 0.125873 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000638 seconds.
+  path: Assets/Sprites da NET/gfx/Tiles Overworld/Overworld_78.asset
+  artifactKey: Guid(0160b7384c3b8dd4680aa70c56fca016) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites da NET/gfx/Tiles Overworld/Overworld_78.asset using Guid(0160b7384c3b8dd4680aa70c56fca016) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52a004261102d7faeb3939256c644bdb') in 0.097400 seconds 
+  Import took 0.119115 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000827 seconds.
+  path: Assets/Sprites da NET/gfx/Tiles Overworld/Overworld_54.asset
+  artifactKey: Guid(9bf483c257a03bd4e899bbbb102459ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites da NET/gfx/Tiles Overworld/Overworld_54.asset using Guid(9bf483c257a03bd4e899bbbb102459ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '812e1e31bc740e0193ac561227d66e28') in 0.085987 seconds 
+  Import took 0.108278 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001150 seconds.
+  path: Assets/Sprites da NET/gfx/Tiles Overworld/Overworld_41.asset
+  artifactKey: Guid(e8836aaabe3c3bb419e3f1cb9771434f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites da NET/gfx/Tiles Overworld/Overworld_41.asset using Guid(e8836aaabe3c3bb419e3f1cb9771434f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79ca474b3474f36d16d6baddea839f8e') in 0.090881 seconds 
+  Import took 0.113186 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000817 seconds.
+  path: Assets/Sprites da NET/gfx/Tiles Overworld/Overworld_58.asset
+  artifactKey: Guid(437940ac3fbe493458b35cda6c04fd84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites da NET/gfx/Tiles Overworld/Overworld_58.asset using Guid(437940ac3fbe493458b35cda6c04fd84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64d5b15288a2bae87c164935579eb33b') in 0.095128 seconds 
+  Import took 0.121773 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 126.963888 seconds.
+  path: Assets/Sprites da NET/gfx/objects.png
+  artifactKey: Guid(fed8c5aaa94676c48b91b62e7e81b09c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites da NET/gfx/objects.png using Guid(fed8c5aaa94676c48b91b62e7e81b09c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd43b55e87b603dc4062a03ae5861632') in 0.407732 seconds 
+  Import took 0.428053 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 119.709050 seconds.
+  path: Assets/Sprites da NET/gfx/Heath_item.anim
+  artifactKey: Guid(e05ee099dec2342469c0726c3e537963) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites da NET/gfx/Heath_item.anim using Guid(e05ee099dec2342469c0726c3e537963) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3e4e849bbff0fdbc8af9eef0611a234') in 0.053034 seconds 
+  Import took 0.074026 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.166860 seconds.
+  path: Assets/Sprites da NET/gfx/objects_0.controller
+  artifactKey: Guid(9cb5498e33aeddb4ca82d1b2661afae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites da NET/gfx/objects_0.controller using Guid(9cb5498e33aeddb4ca82d1b2661afae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '113c4ece8e0861ff63b44b4f6b0da490') in 0.059353 seconds 
+  Import took 0.078531 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 218.372006 seconds.
+  path: Assets/Sprites da NET/LPC Base Assets/sprites/monsters
+  artifactKey: Guid(ba4812df53adc03419e1ec963c49a173) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites da NET/LPC Base Assets/sprites/monsters using Guid(ba4812df53adc03419e1ec963c49a173) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ba0ed77b829f39c26ab5f89adf44aac') in 0.037190 seconds 
+  Import took 0.057538 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013420 seconds.
+  path: Assets/Sprites da NET/LPC Base Assets/sprites/monsters/eyeball.png
+  artifactKey: Guid(09ba6fcdafa919f49a6bb86e55395b6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites da NET/LPC Base Assets/sprites/monsters/eyeball.png using Guid(09ba6fcdafa919f49a6bb86e55395b6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70c4b7daf400e9d14c53dea0af6bb839') in 0.164135 seconds 
+  Import took 0.189036 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000849 seconds.
+  path: Assets/Sprites da NET/LPC Base Assets/sprites/monsters/ghost.png
+  artifactKey: Guid(fee9a32e9958a5c4a93acaad73b799d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites da NET/LPC Base Assets/sprites/monsters/ghost.png using Guid(fee9a32e9958a5c4a93acaad73b799d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa491f84b3364730575f06e340883310') in 0.127528 seconds 
+  Import took 0.145632 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000900 seconds.
+  path: Assets/Sprites da NET/LPC Base Assets/sprites/monsters/pumpking.png
+  artifactKey: Guid(2d4a2b40fc917bb4e81b8438e0c81c59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites da NET/LPC Base Assets/sprites/monsters/pumpking.png using Guid(2d4a2b40fc917bb4e81b8438e0c81c59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84c98601dc1fad3405a110a605874e85') in 0.139488 seconds 
+  Import took 0.159743 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000757 seconds.
+  path: Assets/Sprites da NET/LPC Base Assets/sprites/monsters/slime.png
+  artifactKey: Guid(36d11fcc806635d4683a7a71c0aa3e7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites da NET/LPC Base Assets/sprites/monsters/slime.png using Guid(36d11fcc806635d4683a7a71c0aa3e7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fc3bea1fa54a94d5358265984ba147d') in 0.147132 seconds 
+  Import took 0.166456 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000906 seconds.
+  path: Assets/Sprites da NET/LPC Base Assets/sprites/monsters/man_eater_flower.png
+  artifactKey: Guid(d542bdb14a024284096ecb2c3a95fb45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites da NET/LPC Base Assets/sprites/monsters/man_eater_flower.png using Guid(d542bdb14a024284096ecb2c3a95fb45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c257737ce5786eef3f61b66f0199edf5') in 0.141047 seconds 
+  Import took 0.160692 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000865 seconds.
+  path: Assets/Sprites da NET/LPC Base Assets/sprites/monsters/small_worm.png
+  artifactKey: Guid(ebc67cd76a837b2478e895e55eec7924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites da NET/LPC Base Assets/sprites/monsters/small_worm.png using Guid(ebc67cd76a837b2478e895e55eec7924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1df6904772dee2b8e1bb0b85ae4ae4bc') in 0.133073 seconds 
+  Import took 0.152910 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001088 seconds.
+  path: Assets/Sprites da NET/LPC Base Assets/sprites/monsters/snake.png
+  artifactKey: Guid(ec7eda90ab091e747bdadcb76de43030) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites da NET/LPC Base Assets/sprites/monsters/snake.png using Guid(ec7eda90ab091e747bdadcb76de43030) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39074bfdcb9d4d37ef031aab4437081d') in 0.153046 seconds 
+  Import took 0.172392 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 88.254709 seconds.
+  path: Assets/Sprites/tloz the mish cap sprites/Animações/Andando
+  artifactKey: Guid(6745a554df4a1054eb25d8bc59862b0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/tloz the mish cap sprites/Animações/Andando using Guid(6745a554df4a1054eb25d8bc59862b0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68ef4b650220f7e767686962feb036f1') in 0.043218 seconds 
+  Import took 0.064142 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 494.253525 seconds.
+  path: Assets/scripts/Player/Sword_controler.cs
+  artifactKey: Guid(d12e2dc13390a5b4bb75fb3d6d1e1364) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/Player/Sword_controler.cs using Guid(d12e2dc13390a5b4bb75fb3d6d1e1364) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6494214a5faa9936455a14693d61af9a') in 0.041942 seconds 
+  Import took 0.059898 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.032616 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 3.70 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  6.991 seconds
+Domain Reload Profiling:
+	ReloadAssembly (6995ms)
+		BeginReloadAssembly (864ms)
+			ExecutionOrderSort (1ms)
+			DisableScriptedObjects (55ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (389ms)
+		EndReloadAssembly (5721ms)
+			LoadAssemblies (636ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (2048ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (313ms)
+			SetupLoadedEditorAssemblies (2008ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (40ms)
+				SetLoadedEditorAssemblies (8ms)
+				RefreshPlugins (4ms)
+				BeforeProcessingInitializeOnLoad (580ms)
+				ProcessInitializeOnLoadAttributes (1264ms)
+				ProcessInitializeOnLoadMethodAttributes (76ms)
+				AfterProcessingInitializeOnLoad (34ms)
+				EditorAssembliesLoaded (2ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (62ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.94 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2354 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 107.1 MB.
+System memory in use after: 107.3 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2831.
+Total: 17.558700 ms (FindLiveObjects: 1.774600 ms CreateObjectMapping: 0.619700 ms MarkObjects: 14.928600 ms  DeleteObjects: 0.228500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.029743 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 4.89 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in 19.009 seconds
+Domain Reload Profiling:
+	ReloadAssembly (19022ms)
+		BeginReloadAssembly (1290ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (109ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (336ms)
+		EndReloadAssembly (15305ms)
+			LoadAssemblies (1505ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (3940ms)
+			ReleaseScriptCaches (9ms)
+			RebuildScriptCaches (641ms)
+			SetupLoadedEditorAssemblies (4662ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (233ms)
+				SetLoadedEditorAssemblies (4ms)
+				RefreshPlugins (5ms)
+				BeforeProcessingInitializeOnLoad (1546ms)
+				ProcessInitializeOnLoadAttributes (2737ms)
+				ProcessInitializeOnLoadMethodAttributes (99ms)
+				AfterProcessingInitializeOnLoad (38ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (183ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 9.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2354 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 107.1 MB.
+System memory in use after: 107.4 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2834.
+Total: 27.288300 ms (FindLiveObjects: 4.079000 ms CreateObjectMapping: 4.132100 ms MarkObjects: 18.948100 ms  DeleteObjects: 0.119500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.057070 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 3.29 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  8.603 seconds
+Domain Reload Profiling:
+	ReloadAssembly (8605ms)
+		BeginReloadAssembly (971ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (68ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (344ms)
+		EndReloadAssembly (7061ms)
+			LoadAssemblies (1146ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (2585ms)
+			ReleaseScriptCaches (7ms)
+			RebuildScriptCaches (422ms)
+			SetupLoadedEditorAssemblies (2106ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (46ms)
+				SetLoadedEditorAssemblies (4ms)
+				RefreshPlugins (4ms)
+				BeforeProcessingInitializeOnLoad (751ms)
+				ProcessInitializeOnLoadAttributes (1207ms)
+				ProcessInitializeOnLoadMethodAttributes (66ms)
+				AfterProcessingInitializeOnLoad (27ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (46ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.33 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2354 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 107.2 MB.
+System memory in use after: 107.4 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2837.
+Total: 16.273900 ms (FindLiveObjects: 1.223800 ms CreateObjectMapping: 0.519200 ms MarkObjects: 14.417300 ms  DeleteObjects: 0.106800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
