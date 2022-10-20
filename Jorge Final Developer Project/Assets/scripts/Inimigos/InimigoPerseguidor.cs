@@ -10,6 +10,8 @@ public class InimigoPerseguidor : MonoBehaviour
     public float EniSpeed;
     public float radious;
 
+    public int vida_inimigo;
+
     private bool Avistou;
 
     void Start()
@@ -19,6 +21,9 @@ public class InimigoPerseguidor : MonoBehaviour
     void Update()
     {
         SeguirPlayer();
+        Debug.Log(posPlayer);
+        Debug.Log(Time.deltaTime);
+        Debug.Log(Time.captureFramerate);
     }
     private void FixedUpdate()
     {
@@ -34,9 +39,9 @@ public class InimigoPerseguidor : MonoBehaviour
     }
     void AvistouTeste()
     {
-        Collider2D hit = Physics2D.OverlapCircle(transform.position, radious, playerLayer);
+        Collider2D MuitoPerto = Physics2D.OverlapCircle(transform.position, radious, playerLayer);
 
-        if (hit != null)
+        if (MuitoPerto != null)
         {
             Avistou = true;
         }
@@ -51,6 +56,7 @@ public class InimigoPerseguidor : MonoBehaviour
         {
             case "Wepon":
 
+                PontuationController.instancia.Score += 1;
                 Debug.Log("Inimigo: Levei Dano!");
                 Destroy(gameObject, 0.1f);
 
