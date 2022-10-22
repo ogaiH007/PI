@@ -12,13 +12,13 @@ public class Geraçãodeinimigos : MonoBehaviour
 
     public float RangeMinX, RangeMaxX, RangeMinY, RangeMaxY;
     void Start()
-    {
-        X = Random.Range(RangeMinX, RangeMaxX);
-        Y = Random.Range(RangeMinY, RangeMaxY);
-        LugarDoSpawn = new Vector3(X, Y, 0f);
+    {        
         int quantidade = Random.Range(minimoDeInimigos, maximoDeInimigos); // aqui acontece o sorteio da quantidade de inimigos
         for (int x = 0; x < quantidade; x++)
         {
+            X = Random.Range(RangeMinX, RangeMaxX);
+            Y = Random.Range(RangeMinY, RangeMaxY);
+            LugarDoSpawn = new Vector3(X, Y, 0f);
             Instantiate(inimigo, LugarDoSpawn, transform.rotation); // instancia um inimigo aleatorio
         }
     }
