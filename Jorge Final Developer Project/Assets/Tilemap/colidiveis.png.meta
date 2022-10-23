@@ -165,7 +165,7 @@ TextureImporter:
       213: 351295448967866592
     second: colidiveis_53
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -186,6 +186,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -224,6 +225,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -251,6 +253,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -1408,6 +1422,61 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      colidiveis_3: -7840894499781541130
+      colidiveis_23: 111433373740147618
+      colidiveis_7: 2807564413284756706
+      colidiveis_41: 4444177996188659426
+      colidiveis_1: -2849352040828464005
+      colidiveis_38: 7100487195916123581
+      colidiveis_14: 542494048816415733
+      colidiveis_22: -1729287248078867856
+      colidiveis_39: 943945317062595077
+      colidiveis_51: -1191802267348166144
+      colidiveis_25: 146518796178330770
+      colidiveis_2: 1096358810059215433
+      colidiveis_52: -4230221283100928007
+      colidiveis_37: -336512715999815575
+      colidiveis_28: 1200954312772831059
+      colidiveis_0: -3041834216456558797
+      colidiveis_19: 6208560701272265222
+      colidiveis_43: 1264827794596370767
+      colidiveis_47: 5164990476396738756
+      colidiveis_8: 4493627475660946916
+      colidiveis_24: -7024095008690414832
+      colidiveis_53: 351295448967866592
+      colidiveis_34: 1137299219724178823
+      colidiveis_16: 6619263783149097556
+      colidiveis_12: 7072568213693333012
+      colidiveis_4: 4851441679543570759
+      colidiveis_40: -683172220631827821
+      colidiveis_15: 8552770518116560607
+      colidiveis_48: -1389468990715098029
+      colidiveis_45: -5914224320958552415
+      colidiveis_20: 2389944129674276827
+      colidiveis_10: -1689137491478073142
+      colidiveis_9: -3653394716019761122
+      colidiveis_31: 8239139393309074595
+      colidiveis_27: -6742506670940661954
+      colidiveis_11: 2240231799067176346
+      colidiveis_42: -3328285321851379723
+      colidiveis_44: 7020607358241985519
+      colidiveis_33: -3794258992191307857
+      colidiveis_17: 9082249288974033597
+      colidiveis_35: 5615556491954142807
+      colidiveis_29: 5217743060664309318
+      colidiveis_5: -9140382325652599120
+      colidiveis_50: 6999200436770667224
+      colidiveis_26: -4045586980334181145
+      colidiveis_49: -5609839823709961478
+      colidiveis_13: -8734699835628312986
+      colidiveis_21: 4206489138462827226
+      colidiveis_32: 4667940165998423670
+      colidiveis_6: -3271828668379411185
+      colidiveis_36: 8701934168074867156
+      colidiveis_18: -841107024302038602
+      colidiveis_30: -4556561920657459586
+      colidiveis_46: 6957464976353743037
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

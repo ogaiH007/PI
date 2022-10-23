@@ -135,7 +135,7 @@ TextureImporter:
       213: 112946036124504655
     second: "Ch\xE3o_43"
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -156,6 +156,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -194,6 +195,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -221,6 +223,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -1168,6 +1182,51 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      "Ch\xE3o_2": 7668479265036706416
+      "Ch\xE3o_41": 2270653886826592559
+      "Ch\xE3o_17": -1573007894515134202
+      "Ch\xE3o_5": -7384720697101828211
+      "Ch\xE3o_9": -541488500806154530
+      "Ch\xE3o_27": 2805936353675454604
+      "Ch\xE3o_43": 112946036124504655
+      "Ch\xE3o_8": -8819701401324266823
+      "Ch\xE3o_22": 3193415717781862494
+      "Ch\xE3o_19": 8064719638897388897
+      "Ch\xE3o_33": -4046057664127263932
+      "Ch\xE3o_37": -451988087660428653
+      "Ch\xE3o_42": 688105127055089261
+      "Ch\xE3o_24": -6103830279949437142
+      "Ch\xE3o_20": -2981290478406516642
+      "Ch\xE3o_30": -8557683547519156093
+      "Ch\xE3o_32": -8961006384895095281
+      "Ch\xE3o_36": -2227403471974610292
+      "Ch\xE3o_14": 93991089036337720
+      "Ch\xE3o_15": -8987347288877396724
+      "Ch\xE3o_0": 2974121904050861087
+      "Ch\xE3o_3": -2740508879073908575
+      "Ch\xE3o_11": -6509131822419256249
+      "Ch\xE3o_26": 8433241552633497526
+      "Ch\xE3o_23": 505980703506628700
+      "Ch\xE3o_29": -5330889047038577865
+      "Ch\xE3o_40": 6527435276808920821
+      "Ch\xE3o_7": 2992212119778995706
+      "Ch\xE3o_35": 3857138183135159928
+      "Ch\xE3o_38": 404907141983704204
+      "Ch\xE3o_1": 5045403696648897003
+      "Ch\xE3o_13": 8516015654614594854
+      "Ch\xE3o_18": 679570529051778175
+      "Ch\xE3o_28": -322746381121935596
+      "Ch\xE3o_34": -781542028873867710
+      "Ch\xE3o_4": -235666145689641973
+      "Ch\xE3o_16": 1393900024737535725
+      "Ch\xE3o_6": 5995579561835824487
+      "Ch\xE3o_10": 3872581025334395064
+      "Ch\xE3o_21": 3247367511735803637
+      "Ch\xE3o_12": 6219473607983731911
+      "Ch\xE3o_31": 8275783923370931956
+      "Ch\xE3o_39": -8905006329268040545
+      "Ch\xE3o_25": 547536888736871992
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
