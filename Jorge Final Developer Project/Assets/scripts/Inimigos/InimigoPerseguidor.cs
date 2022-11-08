@@ -21,9 +21,9 @@ public class InimigoPerseguidor : MonoBehaviour
     void Update()
     {
         SeguirPlayer();
-        Debug.Log(posPlayer);
+        /*Debug.Log(posPlayer);
         Debug.Log(Time.deltaTime);
-        Debug.Log(Time.captureFramerate);
+        Debug.Log(Time.captureFramerate);*/
     }
     private void FixedUpdate()
     {
@@ -43,6 +43,7 @@ public class InimigoPerseguidor : MonoBehaviour
 
         if (MuitoPerto != null)
         {
+            Debug.Log(MuitoPerto);
             Avistou = true;
         }
     }

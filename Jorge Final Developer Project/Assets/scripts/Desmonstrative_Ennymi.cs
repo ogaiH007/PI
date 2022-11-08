@@ -6,6 +6,7 @@ public class Desmonstrative_Ennymi : MonoBehaviour
 {
     private Transform posPlayer;
 
+    public LayerMask playerLayer;
     public float EniSpeed;
 
     void Start()
@@ -19,8 +20,11 @@ public class Desmonstrative_Ennymi : MonoBehaviour
 
     void SeguirPlayer()
     {
-        if (posPlayer.gameObject != null)
+        Collider2D MuitoPerto = Physics2D.OverlapCircle(transform.position, 3, playerLayer);
+
+        if (MuitoPerto != null)
         {
+            Debug.Log(MuitoPerto);
             transform.position = Vector2.MoveTowards(transform.position, posPlayer.position, EniSpeed * Time.deltaTime);
         }
     }
