@@ -14,11 +14,11 @@ public class Geraçãodeinimigos : MonoBehaviour
     void Start()
     {        
         int quantidade = Random.Range(minimoDeInimigos, maximoDeInimigos); // aqui acontece o sorteio da quantidade de inimigos
-        for (int x = 0; x < quantidade; x++)
+        for (int x = 0; x < quantidade; x++) //Loop de Repitção
         {
-            X = Random.Range(RangeMinX, RangeMaxX);
-            Y = Random.Range(RangeMinY, RangeMaxY);
-            LugarDoSpawn = new Vector3(X, Y, 0f);
+            X = Random.Range(RangeMinX, RangeMaxX); //Sorteia a posição em X do Inimigo
+            Y = Random.Range(RangeMinY, RangeMaxY); //Sorteia a posição em Y do Inimigo
+            LugarDoSpawn = new Vector3(X, Y, 0f); //Junta as posições em X e em Y em um unico veto
             Instantiate(inimigo, LugarDoSpawn, transform.rotation); // instancia um inimigo aleatorio
         }
     }
