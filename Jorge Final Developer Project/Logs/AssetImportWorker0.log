@@ -15,7 +15,7 @@ C:/Users/Hiago Luiz/Documents/Repositorios/PI/Jorge Final Developer Project
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-63048
+61821
 Successfully changed project path to: C:/Users/Hiago Luiz/Documents/Repositorios/PI/Jorge Final Developer Project
 C:/Users/Hiago Luiz/Documents/Repositorios/PI/Jorge Final Developer Project
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/Hiago Luiz/Documents/Repositorios/PI/Jorge Final Developer Project
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 925.99 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 527.84 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.12f1 (8af3c3e441b1)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.12f1/Editor/Data/Resources/UnitySubsystems
@@ -63,43 +63,46 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.12f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.12f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56220
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56148
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.072246 seconds.
+Registered in 0.049863 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 713.19 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 443.09 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  7.933 seconds
+- Completed reload, in  5.800 seconds
 Domain Reload Profiling:
-	ReloadAssembly (7936ms)
-		BeginReloadAssembly (986ms)
+	ReloadAssembly (5804ms)
+		BeginReloadAssembly (896ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (7ms)
-		EndReloadAssembly (5689ms)
-			LoadAssemblies (971ms)
-			RebuildTransferFunctionScriptingTraits (9ms)
-			SetupTypeCache (1442ms)
+			CreateAndSetChildDomain (6ms)
+		EndReloadAssembly (3982ms)
+			LoadAssemblies (877ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (1004ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (441ms)
-			SetupLoadedEditorAssemblies (3259ms)
+			RebuildScriptCaches (291ms)
+			SetupLoadedEditorAssemblies (2187ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (114ms)
-				SetLoadedEditorAssemblies (2ms)
-				RefreshPlugins (714ms)
-				BeforeProcessingInitializeOnLoad (23ms)
-				ProcessInitializeOnLoadAttributes (1872ms)
-				ProcessInitializeOnLoadMethodAttributes (530ms)
+				InitializePlatformSupportModulesInManaged (61ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (444ms)
+				BeforeProcessingInitializeOnLoad (12ms)
+				ProcessInitializeOnLoadAttributes (1274ms)
+				ProcessInitializeOnLoadMethodAttributes (394ms)
 				AfterProcessingInitializeOnLoad (0ms)
-				EditorAssembliesLoaded (4ms)
+				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.105883 seconds.
+Registered in 0.053987 seconds.
 Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 407.59 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
