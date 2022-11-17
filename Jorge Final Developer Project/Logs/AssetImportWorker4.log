@@ -1157,3 +1157,33 @@ Received Import Request.
   path: Assets/Sprites da NET/gfx/Tiles Overworld/Overworld_41.asset
   artifactKey: Guid(e8836aaabe3c3bb419e3f1cb9771434f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Sprites da NET/gfx/Tiles Overworld/Overworld_41.asset using Guid(e8836aaabe3c3bb419e3f1cb9771434f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfdd7a8580ee083fa720a3c190690847') in 0.070595 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4542.801419 seconds.
+  path: Assets/Sprites/tloz the mish cap sprites/Animações/Espada link/Link espada baixo.png
+  artifactKey: Guid(dc5d452085988374abd18793f3a88a91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/tloz the mish cap sprites/Animações/Espada link/Link espada baixo.png using Guid(dc5d452085988374abd18793f3a88a91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ad318f57305672cbad77abc3f882d3a') in 0.849747 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.639843 seconds.
+  path: Assets/Sprites/tloz the mish cap sprites/Animações/parado/parado.png
+  artifactKey: Guid(0b9cf24ed8d1b54448887119f2770b5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/tloz the mish cap sprites/Animações/parado/parado.png using Guid(0b9cf24ed8d1b54448887119f2770b5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67e1bc915ee8acda4a29abe607c83011') in 0.191212 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.257377 seconds.
+  path: Assets/Sprites/tloz the mish cap sprites/Animações/Andando/andando lado.png
+  artifactKey: Guid(0121c55ffab79c74c9b8d00b59c8d997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/tloz the mish cap sprites/Animações/Andando/andando lado.png using Guid(0121c55ffab79c74c9b8d00b59c8d997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f93a233ca7a36f31c0d5fd7a2fb2ab1f') in 0.226829 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 401.758625 seconds.
+  path: Assets/scripts/Player
+  artifactKey: Guid(beb9297ca6871e2488cdaf223044fe29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/Player using Guid(beb9297ca6871e2488cdaf223044fe29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39c84d8a0f6c1af470a2e7ad947cb0c5') in 0.043957 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.874182 seconds.
+  path: Assets/scripts/Player/Player_animations.cs
+  artifactKey: Guid(c8af9b9a53a289b4dab680b263dc35e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/Player/Player_animations.cs using Guid(c8af9b9a53a289b4dab680b263dc35e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09493c8b0fa69c9b49df84d34b080872') in 0.143937 seconds 
