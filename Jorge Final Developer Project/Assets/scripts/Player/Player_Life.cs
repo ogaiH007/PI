@@ -3,14 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Player_Life : MonoBehaviour
-{
-    public int Player_life;
+{ 
+    public int Player_life; //vida do jogador
 
-    public GameObject heath1;
-    public GameObject heath2;
-    public GameObject heath3;
-    public GameObject GameOverTitle;
-    public GameObject PlayerObject;
+    public GameObject heath1; //objeto do coração 1
+    public GameObject heath2; //objeto do coração 2
+    public GameObject heath3; //objeto do coração 3
+    public GameObject GameOverTitle; //tela de morte
+    public GameObject PlayerObject; //ojeto do jogador
 
     void Start()
     {
